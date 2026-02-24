@@ -83,7 +83,7 @@ struct FightSettingsView: View {
                 }
             }.onAppear {
                 do {
-                    try FightConfiguration.initDropItems("zh-cn")
+                    try FightConfiguration.initDropItems("en-us")
                 } catch let err {
                     print(String(localized: "Read item_index.json failed: \(err.localizedDescription)"))
                 }
