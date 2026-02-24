@@ -7,8 +7,8 @@ struct SystemSettingsView: View {
         VStack(alignment: .leading) {
             Toggle(isOn: $viewModel.preventSystemSleeping) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(String(localized: "Prevent System Sleep"))
-                    Text(String(localized: "Prevent System Sleep Tip"))
+                    Text(String(localized: "阻止系统睡眠"))
+                    Text(String(localized: "日常任务定时执行会在系统休眠之后失效, 打开此功能可以阻止系统自动睡眠"))
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }

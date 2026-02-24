@@ -12,19 +12,19 @@ struct ConnectionSettingsView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Picker(String(localized: "Touch Mode"), selection: $viewModel.touchMode) {
+            Picker(String(localized: "触控模式"), selection: $viewModel.touchMode) {
                 ForEach(MaaTouchMode.allCases, id: \.self) { mode in
                     Text(mode.rawValue)
                 }
             }
 
             if viewModel.touchMode == .MacPlayTools {
-                Text(String(localized: "PlayTools Documentation"))
+                Text(String(localized: "PlayTools 的使用请参考[文档](https://maa.plus/docs/zh-cn/manual/device/macos.html)。"))
                     .font(.caption).foregroundStyle(.secondary)
             }
 
             HStack {
-                Text(String(localized: "Connection Address"))
+                Text(String(localized: "连接地址"))
                 TextField("", text: $viewModel.connectionAddress)
             }
 
@@ -32,16 +32,16 @@ struct ConnectionSettingsView: View {
 
             Toggle(isOn: allowGzip) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(String(localized: "Allow Gzip"))
-                    Text(String(localized: "Gzip Memory Warning"))
+                    Text(String(localized: "允许使用 Gzip"))
+                    Text(String(localized: "使用 Gzip 压缩有可能会出现内存泄漏，非测试用途建议关闭。"))
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }
 
             Toggle(isOn: $viewModel.useAdbLite) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(String(localized: "Use ADB Lite"))
-                    Text(String(localized: "Use ADB Lite Tip"))
+                    Text(String(localized: "使用 adb-lite 连接"))
+                    Text(String(localized: "实验性功能，理论性能更好。"))
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }

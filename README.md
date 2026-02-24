@@ -1,10 +1,10 @@
-# MAA Mac GUI (with English Translation)
+# MAA Mac GUI
 
 MAA stands for MAA Assistant Arknights
 
 A game assistant for Arknights
 
-**This repository is dedicated to the English translation for the MAA Mac GUI.**
+**This repository contains the MAA Mac GUI and includes English translation support. It is used as a submodule in the main MAA repository.**
 
 This repo is the Mac GUI repository for MAA and is a submodule of the main MAA repository. For more information about MAA, please refer to the [MAA Assistant Arknights main repository](https://github.com/MaaAssistantArknights/MaaAssistantArknights).
 

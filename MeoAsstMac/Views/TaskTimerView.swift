@@ -25,7 +25,7 @@ struct TaskTimerView: View {
                 )
             }
         }
-        .alert(String(localized: "Allow Preventing System Sleep"),
+        .alert(String(localized: "允许阻止系统睡眠"),
                isPresented: $showingAlertForPreventingSleep,
                actions: {
                    Button(String(localized: "允许")) {
@@ -33,7 +33,7 @@ struct TaskTimerView: View {
                    }
                    Button(String(localized: "取消"), role: .cancel) {}
                }, message: {
-                   Text(String(localized: "Prevent System Sleep Tip"))
+                   Text(String(localized: "日常任务定时执行会在系统休眠之后失效, 打开此功能可以阻止系统自动睡眠"))
                })
     }
 

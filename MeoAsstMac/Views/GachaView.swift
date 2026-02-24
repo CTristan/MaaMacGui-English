@@ -15,7 +15,7 @@ struct GachaView: View {
 
     var body: some View {
         if showNotice {
-            Text(String(localized: "Gacha Real Not Simulation"))
+            Text(String(localized: "抽卡结果为真实记录，非模拟"))
                 .font(.title)
                 .bold()
 

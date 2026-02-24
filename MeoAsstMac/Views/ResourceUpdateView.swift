@@ -39,7 +39,7 @@ struct ResourceUpdateView: View {
     var body: some View {
         VStack {
             if !shouldUpdate {
-                Text(String(localized: "Resource update not needed"))
+                Text(String(localized: "无需更新资源"))
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                 Button(String(localized: "好")) {
@@ -49,7 +49,7 @@ struct ResourceUpdateView: View {
                 if let error {
                     Text(
                         String(
-                            format: String(localized: "Update failed: %@"),
+                            format: String(localized: "更新失败：%@"),
                             error.localizedDescription
                         )
                     )

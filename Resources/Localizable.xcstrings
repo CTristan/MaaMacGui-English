@@ -269,6 +269,7 @@
       }
     },
     "Allow Gzip" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -279,11 +280,24 @@
       }
     },
     "Allow Preventing System Sleep" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allow Preventing System Sleep"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 절전 모드 방지 허용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许阻止系统睡眠"
           }
         }
       }
@@ -355,6 +369,12 @@
             "state" : "translated",
             "value" : "Auto Resource Update"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动更新资源"
+          }
         }
       }
     },
@@ -365,6 +385,12 @@
             "state" : "translated",
             "value" : "Automatically Check for Updates"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动检查更新"
+          }
         }
       }
     },
@@ -374,6 +400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Automatically Download Updates"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动下载更新"
           }
         }
       }
@@ -483,7 +515,20 @@
       }
     },
     "CDK" : {
-      "shouldTranslate" : false
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CDK"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CDK"
+          }
+        }
+      }
     },
     "CE-6" : {
       "localizations" : {
@@ -552,6 +597,7 @@
       }
     },
     "Client Type:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -694,6 +740,7 @@
       }
     },
     "Connection Address" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -704,11 +751,18 @@
       }
     },
     "Connection Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接设置"
           }
         }
       }
@@ -973,16 +1027,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "战斗失败"
-          }
-        }
-      }
-    },
-    "Gacha Real Not Simulation" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please note, this is real gacha! Not a simulation!!!"
           }
         }
       }
@@ -1406,11 +1450,18 @@
       }
     },
     "Game Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Game Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游戏设置"
           }
         }
       }
@@ -1463,6 +1514,7 @@
       "shouldTranslate" : false
     },
     "Gzip Memory Warning" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1760,6 +1812,7 @@
       }
     },
     "PlayTools Documentation" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1770,7 +1823,6 @@
       }
     },
     "PlayTools 的使用请参考[文档](https://maa.plus/docs/zh-cn/manual/device/macos.html)。" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1809,6 +1861,7 @@
       }
     },
     "Prevent System Sleep" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1819,6 +1872,7 @@
       }
     },
     "Prevent System Sleep Tip" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1888,6 +1942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Receive Beta Updates"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接收测试版更新"
           }
         }
       }
@@ -2069,11 +2129,18 @@
       }
     },
     "Resource update not needed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resource update not needed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资源无需更新"
           }
         }
       }
@@ -2085,6 +2152,12 @@
             "state" : "translated",
             "value" : "Resource Update Source"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资源更新来源"
+          }
         }
       }
     },
@@ -2094,6 +2167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restart the app for changes to take effect."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重启应用以使更改生效。"
           }
         }
       }
@@ -2412,15 +2491,28 @@
             "state" : "translated",
             "value" : "System proxy may be required."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可能需要系统代理。"
+          }
         }
       }
     },
     "System Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "System Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统设置"
           }
         }
       }
@@ -2514,6 +2606,7 @@
       }
     },
     "Touch Mode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2623,6 +2716,7 @@
       }
     },
     "Update failed: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2633,11 +2727,18 @@
       }
     },
     "Update Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Update"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新设置"
           }
         }
       }
@@ -2665,6 +2766,7 @@
       }
     },
     "Use ADB Lite" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2675,6 +2777,7 @@
       }
     },
     "Use ADB Lite Tip" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3167,7 +3270,6 @@
       }
     },
     "使用 adb-lite 连接" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3184,7 +3286,6 @@
       }
     },
     "使用 Gzip 压缩有可能会出现内存泄漏，非测试用途建议关闭。" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3393,7 +3494,6 @@
       }
     },
     "允许使用 Gzip" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3410,7 +3510,6 @@
       }
     },
     "允许阻止系统睡眠" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3422,6 +3521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시스템 절전 모드 방지 허용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许阻止系统睡眠"
           }
         }
       }
@@ -4756,7 +4861,6 @@
       }
     },
     "实验性功能，理论性能更好。" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4773,7 +4877,6 @@
       }
     },
     "客户端类型：" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5434,6 +5537,22 @@
         }
       }
     },
+    "抽卡结果为真实记录，非模拟" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please note, this is real gacha! Not a simulation!!!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽卡结果为真实记录，非模拟"
+          }
+        }
+      }
+    },
     "招揽信" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -5798,7 +5917,6 @@
       }
     },
     "无需更新资源" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5831,7 +5949,6 @@
       }
     },
     "日常任务定时执行会在系统休眠之后失效, 打开此功能可以阻止系统自动睡眠" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5944,7 +6061,6 @@
       }
     },
     "更新失败：%@" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5977,7 +6093,6 @@
       }
     },
     "更新设置" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -6479,7 +6594,6 @@
       }
     },
     "游戏设置" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -7105,7 +7219,6 @@
       }
     },
     "系统设置" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -7641,7 +7754,6 @@
       }
     },
     "触控模式" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -8129,7 +8241,6 @@
       }
     },
     "连接地址" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -8146,7 +8257,6 @@
       }
     },
     "连接设置" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -8287,7 +8397,6 @@
       }
     },
     "阻止系统睡眠" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

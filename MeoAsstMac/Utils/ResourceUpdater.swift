@@ -110,15 +110,33 @@ extension MAAResourceChannel {
 
     private func localizedResourceVersionURL(for url: URL) -> URL {
         // Determine locale path
-        let locale: String? =
-            switch Locale.current.language.languageCode?.identifier {
-            case "zh": nil  // Use default (CN)
-            case "zh-Hant", "zh-HK", "zh-TW": "txwy"
-            case "en": "YoStarEN"
-            case "ja": "YoStarJP"
-            case "ko": "YoStarKR"
-            default: "YoStarEN"  // Default to English for unknown locales
-            }
+        let currentLocale = Locale.current
+        let languageCode = currentLocale.language.languageCode?.identifier
+        let scriptCode = currentLocale.language.script?.identifier
+        let regionCode = currentLocale.region?.identifier
+        let localeIdentifier = currentLocale.identifier
+
+        var locale: String?
+        switch languageCode {
+        case "zh":
+            let isTraditional =
+                scriptCode == "Hant"
+                || ["HK", "TW", "MO"].contains(regionCode)
+                || localeIdentifier.contains("Hant")
+                || localeIdentifier.contains("_HK")
+                || localeIdentifier.contains("_TW")
+                || localeIdentifier.contains("_MO")
+
+            locale = isTraditional ? "txwy" : nil  // Use default (CN)
+        case "en":
+            locale = "YoStarEN"
+        case "ja":
+            locale = "YoStarJP"
+        case "ko":
+            locale = "YoStarKR"
+        default:
+            locale = "YoStarEN"  // Default to English for unknown locales
+        }
 
         let resourceBaseURL = url.appendingPathComponent("resource")
 
