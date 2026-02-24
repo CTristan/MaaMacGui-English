@@ -23,8 +23,8 @@ struct MallSettingsView: View {
             }
 
             HStack(spacing: 20) {
-                EditableTextList(title: String(localized: "优先购买"), texts: $config.buy_first)
-                EditableTextList(title: String(localized: "黑名单"), texts: $config.blacklist)
+                EditableTextList(title: LocalizedStringKey("优先购买"), texts: $config.buy_first)
+                EditableTextList(title: LocalizedStringKey("黑名单"), texts: $config.blacklist)
             }
             .frame(height: 12 * rowHeight)
         }
