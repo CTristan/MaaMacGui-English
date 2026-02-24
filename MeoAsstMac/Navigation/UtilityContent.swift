@@ -94,17 +94,17 @@ extension UtilityEntry: CustomStringConvertible {
     var description: String {
         switch self {
         case .recruit:
-            return NSLocalizedString(String(localized: "公招词条"), comment: "")
+            return String(localized: "公招词条")
         case .depot:
-            return NSLocalizedString(String(localized: "仓库材料"), comment: "")
+            return String(localized: "仓库材料")
         case .oper:
-            return NSLocalizedString(String(localized: "干员列表"), comment: "")
+            return String(localized: "干员列表")
         case .video:
-            return NSLocalizedString(String(localized: "视频作业"), comment: "")
+            return String(localized: "视频作业")
         case .gacha:
-            return NSLocalizedString(String(localized: "干员寻访"), comment: "")
+            return String(localized: "干员寻访")
         case .minigame:
-            return NSLocalizedString(String(localized: "小游戏"), comment: "")
+            return String(localized: "小游戏")
         }
     }
 

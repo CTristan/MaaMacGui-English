@@ -47,9 +47,14 @@ struct ResourceUpdateView: View {
                 }
             } else if let progress {
                 if let error {
-                    Text(String(localized: "Update failed: \(error.localizedDescription)"))
-                        .font(.headline)
-                        .frame(maxWidth: .infinity)
+                    Text(
+                        String(
+                            format: String(localized: "Update failed: %@"),
+                            error.localizedDescription
+                        )
+                    )
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
                 } else {
                     ProgressView(progress.0, value: progress.1)
                 }
