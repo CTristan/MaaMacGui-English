@@ -45,6 +45,10 @@
   - `xcodebuild CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=YES ARCHS="$(uname -m)" -destination "platform=macOS,arch=$(uname -m)" -project MeoAsstMac.xcodeproj -scheme MAA -archivePath MAA.xcarchive archive`
 - Static analysis:
   - `xcodebuild CODE_SIGNING_ALLOWED=NO -project MeoAsstMac.xcodeproj -scheme MAA analyze`
+- MaaMacGui CI gate script:
+  - In mono-repo checkout: `MAA_MAIN_REPO_ROOT=../.. ./scripts/ci.sh`
+  - In standalone MaaMacGui checkout, set dependency paths explicitly when needed:
+    - `MAA_CORE_DIR=<path-to-install-libs> MAA_HEADERS_DIR=<path-to-include> MAA_XCFRAMEWORK_OUTPUT_DIR=<path-to-build> ./scripts/ci.sh`
 
 ### LegacyUserTasks (as needed)
 
