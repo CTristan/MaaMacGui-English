@@ -8358,6 +8358,266 @@
           }
         }
       }
+    },
+    "高级作战记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advanced Battle Record"
+          }
+        }
+      }
+    },
+    "初级作战记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basic Battle Record"
+          }
+        }
+      }
+    },
+    "中级作战记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intermediate Battle Record"
+          }
+        }
+      }
+    },
+    "特级作战记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elite Battle Record"
+          }
+        }
+      }
+    },
+    "合成玉": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orundum"
+          }
+        }
+      }
+    },
+    "龙门币×1000": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LMD×1000"
+          }
+        }
+      }
+    },
+    "龙门币×10000": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LMD×10000"
+          }
+        }
+      }
+    },
+    "理智": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sanity"
+          }
+        }
+      }
+    },
+    "体力": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sanity"
+          }
+        }
+      }
+    },
+    "助理": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Assistant"
+          }
+        }
+      }
+    },
+    "作战记录": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Battle Record"
+          }
+        }
+      }
+    },
+    "作战记录×10": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Battle Record×10"
+          }
+        }
+      }
+    },
+    "理智合剂": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sanity Potion"
+          }
+        }
+      }
+    },
+    "理智合剂×2": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sanity Potion×2"
+          }
+        }
+      }
+    },
+    "源石碎片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originium Shard"
+          }
+        }
+      }
+    },
+    "碳素": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbon"
+          }
+        }
+      }
+    },
+    "赤金": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orundum"
+          }
+        }
+      }
+    },
+    "固源岩": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Originium"
+          }
+        }
+      }
+    },
+    "糖": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugar"
+          }
+        }
+      }
+    },
+    "糖×4": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugar×4"
+          }
+        }
+      }
+    },
+    "技巧概要": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skill Summary"
+          }
+        }
+      }
+    },
+    "建材": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Building Material"
+          }
+        }
+      }
+    },
+    "招揽信": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recruitment Letter"
+          }
+        }
+      }
+    },
+    "寻访凭证": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permit"
+          }
+        }
+      }
+    },
+    "公开招募券": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recruitment Permit"
+          }
+        }
+      }
+    },
+    "碳素组": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbon Cluster"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
