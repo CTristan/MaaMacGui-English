@@ -269,7 +269,7 @@ extension RoguelikeConfiguration.Difficulty: Codable, CustomStringConvertible {
         case .current:
             return NSLocalizedString("当前难度", comment: "")
         default:
-            return "难度\(id)"
+            return NSLocalizedString("难度\(id)", comment: "")
         }
     }
 

@@ -3054,6 +3054,12 @@
             "state" : "translated",
             "value" : "층수 우선"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "优先层数"
+          }
         }
       }
     },
@@ -3069,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "투자 우선"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "优先投资"
           }
         }
       }
@@ -3688,6 +3700,12 @@
             "state" : "translated",
             "value" : "시작 리세마라"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "凹开局"
+          }
         }
       }
     },
@@ -3938,6 +3956,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "붕괴 파밍"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刷坍缩范式"
+          }
+        }
+      }
+    },
+    "刷坍缩范式" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm collapse paradigms"
           }
         }
       }
@@ -5971,6 +6006,12 @@
             "state" : "translated",
             "value" : "월간 스쿼드"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月度小队"
+          }
         }
       }
     },
@@ -6337,6 +6378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "심층 조사"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深入调查"
           }
         }
       }
@@ -8321,6 +8368,108 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "난이도"
+          }
+        }
+      }
+    },
+    "难度0" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 0"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度0"
+          }
+        }
+      }
+    },
+    "难度1" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 1"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度1"
+          }
+        }
+      }
+    },
+    "难度2" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 2"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度2"
+          }
+        }
+      }
+    },
+    "难度3" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 3"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度3"
+          }
+        }
+      }
+    },
+    "难度4" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 4"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度4"
+          }
+        }
+      }
+    },
+    "难度5" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 5"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度5"
           }
         }
       }
