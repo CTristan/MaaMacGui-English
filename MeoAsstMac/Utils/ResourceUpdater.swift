@@ -100,10 +100,42 @@ extension MAAResourceChannel {
     }
 
     private func resourceVersion(of url: URL) throws -> MAAResourceVersion {
-        let versionURL = url.appendingPathComponent("resource").appendingPathComponent("version.json")
+        // Try to load locale-specific version.json first
+        let versionURL = localizedResourceVersionURL(for: url)
         let data = try Data(contentsOf: versionURL)
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         return try decoder.decode(MAAResourceVersion.self, from: data)
+    }
+
+    private func localizedResourceVersionURL(for url: URL) -> URL {
+        // Determine locale path
+        let locale: String? =
+            switch Locale.current.language.languageCode?.identifier {
+            case "zh": nil  // Use default (CN)
+            case "zh-Hant", "zh-HK", "zh-TW": "txwy"
+            case "en": "YoStarEN"
+            case "ja": "YoStarJP"
+            case "ko": "YoStarKR"
+            default: "YoStarEN"  // Default to English for unknown locales
+            }
+
+        let resourceBaseURL = url.appendingPathComponent("resource")
+
+        if let locale {
+            // Try locale-specific version.json
+            let localizedVersionURL = resourceBaseURL
+                .appendingPathComponent("global")
+                .appendingPathComponent(locale)
+                .appendingPathComponent("resource")
+                .appendingPathComponent("version.json")
+
+            if FileManager.default.fileExists(atPath: localizedVersionURL.path) {
+                return localizedVersionURL
+            }
+        }
+
+        // Fall back to default version.json
+        return resourceBaseURL.appendingPathComponent("version.json")
     }
 }
