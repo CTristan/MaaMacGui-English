@@ -23,8 +23,8 @@ struct MallSettingsView: View {
             }
 
             HStack(spacing: 20) {
-                EditableTextList(title: LocalizedStringKey("优先购买"), texts: $config.buy_first)
-                EditableTextList(title: LocalizedStringKey("黑名单"), texts: $config.blacklist)
+                LocalizedEditableTextList(title: LocalizedStringKey("优先购买"), chineseTexts: $config.buy_first)
+                LocalizedEditableTextList(title: LocalizedStringKey("黑名单"), chineseTexts: $config.blacklist)
             }
             .frame(height: 12 * rowHeight)
         }
@@ -35,6 +35,89 @@ struct MallSettingsView: View {
 struct MallSettingsView_Previews: PreviewProvider {
     static var previews: some View {
         MallSettingsView(config: .constant(.init()))
+    }
+}
+
+// MARK: - LocalizedEditableTextList
+
+/// A localized version of EditableTextList that displays item names in user's language
+/// while storing Chinese names internally for MaaCore compatibility.
+private struct LocalizedEditableTextList: View {
+    let title: LocalizedStringKey
+    @Binding var chineseTexts: [String]  // Stored as Chinese for MaaCore
+
+    private struct TextEntry: Identifiable {
+        let id: Int
+    }
+
+    @State private var selection: Int?
+    @FocusState private var focusedField: Int?
+
+    var body: some View {
+        List(selection: $selection) {
+            Section {
+                ForEach(0..<chineseTexts.count, id: \.self) { index in
+                    HStack {
+                        TextField("", text: Binding(
+                            get: { ItemNameLocalizer.localizedDisplayName(for: chineseTexts[index]) },
+                            set: { newValue in
+                                chineseTexts[index] = ItemNameLocalizer.chineseName(for: newValue)
+                            }
+                        ))
+                        .focused($focusedField, equals: index)
+
+                        Button {
+                            selection = index
+                            focusedField = index
+                        } label: {
+                            Image(systemName: "pencil")
+                                .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .onMove(perform: moveEntry)
+            } header: {
+                Text(title)
+            } footer: {
+                editButtons()
+            }
+        }
+        .animation(.default, value: chineseTexts)
+    }
+
+    @ViewBuilder private func editButtons() -> some View {
+        HStack {
+            Button {
+                addEntry()
+            } label: {
+                Image(systemName: "plus")
+            }
+            .buttonStyle(.plain)
+
+            Button {
+                deleteEntry()
+            } label: {
+                Image(systemName: "trash")
+            }
+            .buttonStyle(.plain)
+        }
+    }
+
+    private func moveEntry(source: IndexSet, destination: Int) {
+        chineseTexts.move(fromOffsets: source, toOffset: destination)
+    }
+
+    private func addEntry() {
+        chineseTexts.append("")
+        selection = chineseTexts.count - 1
+    }
+
+    private func deleteEntry() {
+        if let selection {
+            chineseTexts.remove(at: selection)
+        }
+        selection = nil
     }
 }
 
