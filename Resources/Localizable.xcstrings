@@ -4950,6 +4950,7 @@
       }
     },
     "已拥有干员：" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4960,7 +4961,6 @@
       }
     },
     "已拥有干员：%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -6080,6 +6080,7 @@
       }
     },
     "未拥有干员：" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -6090,7 +6091,6 @@
       }
     },
     "未拥有干员：%lld" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
