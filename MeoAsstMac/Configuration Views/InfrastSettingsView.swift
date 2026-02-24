@@ -15,15 +15,15 @@ struct InfrastSettingsView: View {
     var body: some View {
         VStack {
             Form {
-                Picker("基建模式", selection: $config.mode) {
-                    Text("常规模式").tag(InfrastConfiguration.Mode.default)
-                    Text("队列轮换").tag(InfrastConfiguration.Mode.rotation)
-                    Text("自定义基建配置").tag(InfrastConfiguration.Mode.custom)
+                Picker(String(localized: "基建模式"), selection: $config.mode) {
+                    Text(String(localized: "常规模式")).tag(InfrastConfiguration.Mode.default)
+                    Text(String(localized: "队列轮换")).tag(InfrastConfiguration.Mode.rotation)
+                    Text(String(localized: "自定义基建配置")).tag(InfrastConfiguration.Mode.custom)
                 }
                 if config.mode == .custom {
                     customPlanView
                 } else {
-                    Picker("无人机用途", selection: $config.drones) {
+                    Picker(String(localized: "无人机用途"), selection: $config.drones) {
                         ForEach(droneUsages, id: \.self) { usage in
                             Text(usage.description).tag(usage)
                         }
@@ -65,7 +65,7 @@ struct InfrastSettingsView: View {
                     config.facility.move(fromOffsets: source, toOffset: destination)
                 }
             } header: {
-                Text("已启用")
+                Text(String(localized: "已启用"))
             }
 
             Section {
@@ -73,7 +73,7 @@ struct InfrastSettingsView: View {
                     Toggle(facility.description, isOn: facilityBinding(for: facility))
                 }
             } header: {
-                Text("未启用")
+                Text(String(localized: "未启用"))
             }
         }
         .animation(.default, value: config.facility)
@@ -81,22 +81,22 @@ struct InfrastSettingsView: View {
     }
 
     @ViewBuilder private var preferenceForm: some View {
-        Toggle("宿舍空余位置蹭信赖", isOn: $config.dorm_trust_enabled)
-        Toggle("不将已进驻的干员放入宿舍", isOn: $config.dorm_notstationed_enabled)
-        Toggle("源石碎片自动补货", isOn: $config.replenish)
-        Toggle("会客室信息板收取信用", isOn: $config.reception_message_board)
-        Toggle("训练完成后继续尝试专精当前技能", isOn: $config.continue_training)
+        Toggle(String(localized: "宿舍空余位置蹭信赖"), isOn: $config.dorm_trust_enabled)
+        Toggle(String(localized: "不将已进驻的干员放入宿舍"), isOn: $config.dorm_notstationed_enabled)
+        Toggle(String(localized: "源石碎片自动补货"), isOn: $config.replenish)
+        Toggle(String(localized: "会客室信息板收取信用"), isOn: $config.reception_message_board)
+        Toggle(String(localized: "训练完成后继续尝试专精当前技能"), isOn: $config.continue_training)
     }
 
     @ViewBuilder private var customPlanView: some View {
         VStack {
-            Picker("方案", selection: customPlan) {
+            Picker(String(localized: "方案"), selection: customPlan) {
                 Section {
                     ForEach(customInfrastPaths, id: \.self) { path in
                         path.label
                     }
                 } header: {
-                    Text("自定义排班")
+                    Text(String(localized: "自定义排班"))
                 }
 
                 Section {
@@ -104,11 +104,11 @@ struct InfrastSettingsView: View {
                         path.label
                     }
                 } header: {
-                    Text("内置排班")
+                    Text(String(localized: "内置排班"))
                 }
             }
 
-            Picker("班次", selection: $config.plan_index) {
+            Picker(String(localized: "班次"), selection: $config.plan_index) {
                 try? MAAInfrast(path: config.filename).planList
             }
 
@@ -116,7 +116,7 @@ struct InfrastSettingsView: View {
                 Button("打开自定义排班文件夹…") {
                     NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: customInfrastDirectory.path)
                 }
-                Button("重新加载文件") {
+                Button(String(localized: "重新加载文件")) {
                     refreshCustomPlans.toggle()
                 }
             }
@@ -218,7 +218,7 @@ extension String {
         if let plan = try? MAAInfrast(path: self) {
             return Text(plan.title ?? self).tag(self)
         } else {
-            return Text("无效文件").tag(self)
+            return Text(String(localized: "无效文件")).tag(self)
         }
     }
 

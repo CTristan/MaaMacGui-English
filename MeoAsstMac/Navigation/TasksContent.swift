@@ -48,9 +48,9 @@ struct TasksContent: View {
     @ToolbarContentBuilder private func listToolbar() -> some ToolbarContent {
         ToolbarItemGroup {
             Button(action: deleteSelectedTask) {
-                Label("删除", systemImage: "trash")
+                Label(String(localized: "删除"), systemImage: "trash")
             }
-            .help("删除任务")
+            .help(String(localized: "删除任务"))
             .disabled(shouldDisableDeletion)
         }
 
@@ -63,14 +63,14 @@ struct TasksContent: View {
                 .disabled(true)
             case .busy:
                 Button(action: stop) {
-                    Label("停止", systemImage: "stop.fill")
+                    Label(String(localized: "停止"), systemImage: "stop.fill")
                 }
-                .help("停止")
+                .help(String(localized: "停止"))
             case .idle:
                 Button(action: start) {
-                    Label("开始", systemImage: "play.fill")
+                    Label(String(localized: "开始"), systemImage: "play.fill")
                 }
-                .help("开始")
+                .help(String(localized: "开始"))
             }
         }
     }

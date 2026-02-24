@@ -38,11 +38,11 @@ struct StartupSettingsView: View {
             }
             Divider()
 
-            Toggle("自动启动客户端", isOn: $config.start_game_enabled)
+            Toggle(String(localized: "自动启动客户端"), isOn: $config.start_game_enabled)
                 .padding(.vertical)
 
-            Picker("账号切换", selection: $config.account_name) {
-                Text("不切换").tag("")
+            Picker(String(localized: "账号切换"), selection: $config.account_name) {
+                Text(String(localized: "不切换")).tag("")
                 ForEach(accountNames.wrappedValue, id: \.hashValue) { account in
                     Text(account).tag(account)
                 }
@@ -59,7 +59,7 @@ struct StartupSettingsView: View {
                     Button("添加…") {
                         showAccountInput = true
                     }
-                    Button("删除") {
+                    Button(String(localized: "删除")) {
                         accountNames.wrappedValue.removeAll { $0 == config.account_name }
                         config.account_name = accountNames.wrappedValue.first ?? ""
                     }
@@ -67,7 +67,7 @@ struct StartupSettingsView: View {
                 }
             } else {
                 HStack {
-                    Button("添加") {
+                    Button(String(localized: "添加")) {
                         if !accountNames.wrappedValue.contains(accountInput) {
                             accountNames.wrappedValue.append(accountInput)
                         }
@@ -75,11 +75,11 @@ struct StartupSettingsView: View {
                         showAccountInput = false
                     }
                     .disabled(accountInput.isEmpty)
-                    Button("取消") {
+                    Button(String(localized: "取消")) {
                         showAccountInput = false
                     }
                 }
-                TextField("登录名", text: $accountInput)
+                TextField(String(localized: "登录名"), text: $accountInput)
             }
         }
         .padding()

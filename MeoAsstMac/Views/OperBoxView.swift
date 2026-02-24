@@ -17,7 +17,7 @@ struct OperBoxView: View {
                     oper.label
                 }
             } header: {
-                Text("已拥有干员：\(ownedOpers.count)")
+                Text(String(localized: "已拥有干员：") + "\(ownedOpers.count)")
             }
 
             Section {
@@ -25,7 +25,7 @@ struct OperBoxView: View {
                     Text(oper.name)
                 }
             } header: {
-                Text("未拥有干员：\(unownedOpers.count)")
+                Text(String(localized: "未拥有干员：") + "\(unownedOpers.count)")
             }
         }
         .padding()

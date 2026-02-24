@@ -32,9 +32,9 @@ struct CopilotDetail: View {
             Button {
                 showAdd = true
             } label: {
-                Label("添加", systemImage: "plus")
+                Label(String(localized: "添加"), systemImage: "plus")
             }
-            .help("添加作业")
+            .help(String(localized: "添加作业"))
             .popover(isPresented: $showAdd, arrowEdge: .bottom, content: addPopover)
         }
 
@@ -42,10 +42,10 @@ struct CopilotDetail: View {
             Button {
                 viewModel.copilotDetailMode = .log
             } label: {
-                Label("日志", systemImage: "note.text")
+                Label(String(localized: "日志"), systemImage: "note.text")
                     .foregroundColor(url == nil ? Color.accentColor : nil)
             }
-            .help("运行日志")
+            .help(String(localized: "运行日志"))
         }
     }
 
@@ -67,7 +67,7 @@ struct CopilotDetail: View {
                 viewModel.downloadCopilot = prtsCode.parsedID
                 showAdd = false
             } label: {
-                Label("下载作业", systemImage: "arrow.down.doc")
+                Label(String(localized: "下载作业"), systemImage: "arrow.down.doc")
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
@@ -82,7 +82,7 @@ struct CopilotDetail: View {
                     showAdd = false
                 }
             } label: {
-                Label("从剪贴板读取", systemImage: "doc.on.clipboard")
+                Label(String(localized: "从剪贴板读取"), systemImage: "doc.on.clipboard")
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)

@@ -26,7 +26,7 @@ struct UtilityDetail: View {
             case .minigame:
                 MiniGameView()
             case .none:
-                Text("请选择识别项目")
+                Text(String(localized: "请选择识别项目"))
             }
         }
         .padding()

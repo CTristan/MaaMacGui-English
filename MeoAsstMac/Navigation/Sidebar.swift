@@ -35,7 +35,7 @@ struct Sidebar: View {
                 }
 
                 SettingsLink {
-                    Label("设置", systemImage: "gear")
+                    Label(String(localized: "设置"), systemImage: "gear")
                 }
             }
             .buttonStyle(.plain)
@@ -71,11 +71,11 @@ extension SidebarEntry: CustomStringConvertible {
     var description: String {
         switch self {
         case .daily:
-            return NSLocalizedString("一键长草", comment: "")
+            return NSLocalizedString(String(localized: "一键长草"), comment: "")
         case .copilot:
-            return NSLocalizedString("自动战斗", comment: "")
+            return NSLocalizedString(String(localized: "自动战斗"), comment: "")
         case .utility:
-            return NSLocalizedString("实用工具", comment: "")
+            return NSLocalizedString(String(localized: "实用工具"), comment: "")
         }
     }
 

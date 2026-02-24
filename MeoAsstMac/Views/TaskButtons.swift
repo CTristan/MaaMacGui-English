@@ -11,7 +11,7 @@ struct TaskButtons: View {
     @EnvironmentObject var viewModel: MAAViewModel
 
     var body: some View {
-        Button("开始任务") {
+        Button(String(localized: "开始任务")) {
             Task {
                 viewModel.dailyTasksDetailMode = .log
                 await viewModel.tryStartTasks()
@@ -19,14 +19,14 @@ struct TaskButtons: View {
         }
         .keyboardShortcut("R", modifiers: .command)
 
-        Button("停止任务") {
+        Button(String(localized: "停止任务")) {
             Task {
                 try await viewModel.stop()
             }
         }
         .keyboardShortcut(".", modifiers: .command)
 
-        Button("全部启用") {
+        Button(String(localized: "全部启用")) {
             for (index, task) in viewModel.tasks.enumerated() {
                 switch task.task {
                 case .roguelike, .reclamation:
@@ -38,7 +38,7 @@ struct TaskButtons: View {
         }
         .keyboardShortcut("E", modifiers: [.command, .shift])
 
-        Button("全部取消") {
+        Button(String(localized: "全部取消")) {
             for (index, _) in viewModel.tasks.enumerated() {
                 viewModel.tasks[index].enabled = false
             }

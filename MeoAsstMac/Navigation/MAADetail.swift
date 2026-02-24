@@ -21,7 +21,7 @@ struct MAADetail: View {
                 case .utility:
                     UtilityDetail(entry: selection.utility)
                 case .none:
-                    Text("请选择内容项目")
+                    Text(String(localized: "请选择内容项目"))
             }
         }
         .frame(minWidth: 450, minHeight: 360)

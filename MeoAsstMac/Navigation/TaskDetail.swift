@@ -68,9 +68,9 @@ struct TaskDetail: View {
                     }
                 }
             } label: {
-                Label("添加", systemImage: "plus")
+                Label(String(localized: "添加"), systemImage: "plus")
             }
-            .help("添加任务")
+            .help(String(localized: "添加任务"))
         }
 
         ToolbarItemGroup {

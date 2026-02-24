@@ -26,14 +26,14 @@ struct UpdaterSettingsView: View {
 
     var body: some View {
         Form {
-            Toggle("接收开发版更新", isOn: $useBetaChannel)
+            Toggle(String(localized: "Receive Beta Updates"), isOn: $useBetaChannel)
 
-            Toggle("自动检查更新", isOn: $automaticallyChecksForUpdates)
+            Toggle(String(localized: "Automatically Check for Updates"), isOn: $automaticallyChecksForUpdates)
                 .onChange(of: automaticallyChecksForUpdates) { newValue in
                     updater.automaticallyChecksForUpdates = newValue
                 }
 
-            Toggle("自动下载更新", isOn: $automaticallyDownloadsUpdates)
+            Toggle(String(localized: "Automatically Download Updates"), isOn: $automaticallyDownloadsUpdates)
                 .disabled(!automaticallyChecksForUpdates)
                 .onChange(of: automaticallyDownloadsUpdates) { newValue in
                     updater.automaticallyDownloadsUpdates = newValue
@@ -41,22 +41,22 @@ struct UpdaterSettingsView: View {
 
             Divider()
 
-            Picker("资源更新来源", selection: $resourceChannel) {
+            Picker(String(localized: "Resource Update Source"), selection: $resourceChannel) {
                 ForEach(MAAResourceChannel.allCases, id: \.hashValue) { channel in
                     Text(channel.description).tag(channel)
                 }
             }
 
             if resourceChannel == .mirrorChyan {
-                SecureField("CDK", text: mirrorChyanCDK)
+                SecureField(String(localized: "CDK"), text: mirrorChyanCDK)
             } else if resourceChannel == .github {
-                Text("可能需要设置系统代理。")
+                Text(String(localized: "System Proxy May Be Required"))
                     .font(.caption).foregroundStyle(.secondary)
             }
 
-            Toggle("自动资源更新", isOn: $autoResourceUpdate)
+            Toggle(String(localized: "Auto Resource Update"), isOn: $autoResourceUpdate)
 
-            Text("重新打开应用后生效。")
+            Text(String(localized: "Restart App for Changes"))
                 .font(.caption).foregroundStyle(.secondary)
         }
         .animation(.default, value: resourceChannel)

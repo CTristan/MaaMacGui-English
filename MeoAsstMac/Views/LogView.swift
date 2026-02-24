@@ -13,9 +13,9 @@ struct LogView: View {
     var body: some View {
         ScrollViewReader { proxy in
             Table(viewModel.logs) {
-                TableColumn("时间", value: \.date.maaFormat)
+                TableColumn(String(localized: "时间"), value: \.date.maaFormat)
                     .width(min: 100, ideal: 125, max: 150)
-                TableColumn("信息") { log in
+                TableColumn(String(localized: "信息")) { log in
                     Text(log.content)
                         .textSelection(.enabled)
                         .foregroundStyle(log.color.textColor)
@@ -29,9 +29,9 @@ struct LogView: View {
                     Divider()
 
                     Toggle(isOn: $viewModel.trackTail) {
-                        Label("现在", systemImage: "arrow.down.to.line")
+                        Label(String(localized: "现在"), systemImage: "arrow.down.to.line")
                     }
-                    .help("自动滚动到底部")
+                    .help(String(localized: "自动滚动到底部"))
                 }
             }
             .onChange(of: viewModel.logs) { _ in

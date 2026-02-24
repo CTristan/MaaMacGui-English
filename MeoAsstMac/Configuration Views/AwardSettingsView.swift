@@ -14,15 +14,15 @@ struct AwardSettingsView: View {
         Form {
             Toggle("领取每日/每周任务奖励", isOn: $config.award)
 
-            Toggle("领取所有邮件奖励", isOn: $config.mail)
+            Toggle(String(localized: "领取所有邮件奖励"), isOn: $config.mail)
 
-            Toggle("进行每日免费单抽", isOn: $config.recruit)
+            Toggle(String(localized: "进行每日免费单抽"), isOn: $config.recruit)
 
-            Toggle("领取幸运墙合成玉奖励", isOn: $config.orundum)
+            Toggle(String(localized: "领取幸运墙合成玉奖励"), isOn: $config.orundum)
 
-            Toggle("领取限时开采许可合成玉奖励", isOn: $config.mining)
+            Toggle(String(localized: "领取限时开采许可合成玉奖励"), isOn: $config.mining)
 
-            Toggle("领取周年庆赠送月卡奖励", isOn: $config.specialaccess)
+            Toggle(String(localized: "领取周年庆赠送月卡奖励"), isOn: $config.specialaccess)
         }
         .padding()
     }
