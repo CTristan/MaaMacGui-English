@@ -19,7 +19,7 @@ struct ConnectionSettingsView: View {
             }
 
             if viewModel.touchMode == .MacPlayTools {
-                Text(String(localized: "PlayTools 的使用请参考[文档](https://maa.plus/docs/zh-cn/manual/device/macos.html)。"))
+                Text("PlayTools 的使用请参考[文档](https://maa.plus/docs/zh-cn/manual/device/macos.html)。")
                     .font(.caption).foregroundStyle(.secondary)
             }
 
