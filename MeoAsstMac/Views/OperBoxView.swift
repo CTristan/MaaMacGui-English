@@ -20,7 +20,7 @@ struct OperBoxView: View {
                 Text(
                     String(
                         format: String(localized: "已拥有干员：%lld"),
-                        ownedOpers.count
+                        Int64(ownedOpers.count)
                     )
                 )
             }
@@ -33,7 +33,7 @@ struct OperBoxView: View {
                 Text(
                     String(
                         format: String(localized: "未拥有干员：%lld"),
-                        unownedOpers.count
+                        Int64(unownedOpers.count)
                     )
                 )
             }

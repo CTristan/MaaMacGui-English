@@ -38,7 +38,7 @@ detect_core_lib_dir() {
     return 1
   fi
 
-  if find "$dir" -maxdepth 1 -type f \( -name 'libMaaCore.*' -o -name 'MaaCore.dll' \) | grep -q .; then
+  if [ -n "$(find "$dir" -maxdepth 1 -type f \( -name 'libMaaCore.*' -o -name 'MaaCore.dll' \) -print -quit)" ]; then
     printf '%s' "$dir"
     return 0
   fi
@@ -107,8 +107,8 @@ run_macos_gui_build() {
   maa_core_lib="$core_dir/libMaaCore.dylib"
   maa_utils_lib="$core_dir/libMaaUtils.dylib"
   fastdeploy_lib="$core_dir/libfastdeploy_ppocr.dylib"
-  onnxruntime_lib="$(find "$core_dir" -maxdepth 1 -type f -name 'libonnxruntime*.dylib' | head -n 1)"
-  opencv_lib="$(find "$core_dir" -maxdepth 1 -type f -name 'libopencv*.dylib' | head -n 1)"
+  onnxruntime_lib="$(find "$core_dir" -maxdepth 1 -type f -name 'libonnxruntime*.dylib' -print -quit)"
+  opencv_lib="$(find "$core_dir" -maxdepth 1 -type f -name 'libopencv*.dylib' -print -quit)"
 
   [ -f "$maa_core_lib" ] || die "Missing required library for Xcode build: $maa_core_lib"
   [ -f "$maa_utils_lib" ] || die "Missing required library for Xcode build: $maa_utils_lib"
