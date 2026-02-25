@@ -132,7 +132,7 @@ run_macos_gui_build() {
 
   log "Building MaaMacGui with Xcode (no signing, arch=$arch)"
   pushd "$MAC_GUI_DIR" >/dev/null
-  run xcodebuild CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=YES ARCHS="$arch" -destination "platform=macOS,arch=$arch" -scheme MAA -archivePath MAA.xcarchive archive
+  run xcodebuild CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=YES ARCHS="$arch" -destination "platform=macOS,arch=$arch" -project MeoAsstMac.xcodeproj -scheme MAA -archivePath MAA.xcarchive archive
   popd >/dev/null
 }
 
