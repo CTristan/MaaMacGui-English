@@ -100,60 +100,14 @@ extension MAAResourceChannel {
     }
 
     private func resourceVersion(of url: URL) throws -> MAAResourceVersion {
-        // Try to load locale-specific version.json first
-        let versionURL = localizedResourceVersionURL(for: url)
+        // Always use canonical version.json so local/remote comparisons are consistent.
+        let versionURL = url
+            .appendingPathComponent("resource")
+            .appendingPathComponent("version.json")
+
         let data = try Data(contentsOf: versionURL)
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         return try decoder.decode(MAAResourceVersion.self, from: data)
-    }
-
-    private func localizedResourceVersionURL(for url: URL) -> URL {
-        // Determine locale path
-        let currentLocale = Locale.current
-        let languageCode = currentLocale.language.languageCode?.identifier
-        let scriptCode = currentLocale.language.script?.identifier
-        let regionCode = currentLocale.region?.identifier
-        let localeIdentifier = currentLocale.identifier
-
-        var locale: String?
-        switch languageCode {
-        case "zh":
-            let isTraditional =
-                scriptCode == "Hant"
-                || ["HK", "TW", "MO"].contains(regionCode)
-                || localeIdentifier.contains("Hant")
-                || localeIdentifier.contains("_HK")
-                || localeIdentifier.contains("_TW")
-                || localeIdentifier.contains("_MO")
-
-            locale = isTraditional ? "txwy" : nil  // Use default (CN)
-        case "en":
-            locale = "YoStarEN"
-        case "ja":
-            locale = "YoStarJP"
-        case "ko":
-            locale = "YoStarKR"
-        default:
-            locale = "YoStarEN"  // Default to English for unknown locales
-        }
-
-        let resourceBaseURL = url.appendingPathComponent("resource")
-
-        if let locale {
-            // Try locale-specific version.json
-            let localizedVersionURL = resourceBaseURL
-                .appendingPathComponent("global")
-                .appendingPathComponent(locale)
-                .appendingPathComponent("resource")
-                .appendingPathComponent("version.json")
-
-            if FileManager.default.fileExists(atPath: localizedVersionURL.path) {
-                return localizedVersionURL
-            }
-        }
-
-        // Fall back to default version.json
-        return resourceBaseURL.appendingPathComponent("version.json")
     }
 }

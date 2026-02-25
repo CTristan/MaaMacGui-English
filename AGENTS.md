@@ -2,9 +2,10 @@
 
 ## Scope and Inheritance
 
-- This file applies to the `src/MaaMacGui` subtree.
-- Rules not overridden here inherit from the repository root `AGENTS.md`.
-- If there is a conflict, this file takes precedence for this subtree only.
+- In this standalone repository, this file applies to the repo root (`.`).
+- When this project is used inside the mono-repo, the same rules apply to the `src/MaaMacGui` subtree.
+- Rules not overridden here inherit from the parent/repository root `AGENTS.md` when available.
+- If there is a conflict, this file takes precedence for this project subtree.
 
 ## Quick Checklist (Do This First)
 
