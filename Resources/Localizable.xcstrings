@@ -370,6 +370,12 @@
             "value" : "Auto Resource Update"
           }
         },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 리소스 업데이트"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -386,6 +392,12 @@
             "value" : "Automatically Check for Updates"
           }
         },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 업데이트 확인"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -400,6 +412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Automatically Download Updates"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 업데이트 다운로드"
           }
         },
         "zh-Hans" : {
@@ -1944,6 +1962,12 @@
             "value" : "Receive Beta Updates"
           }
         },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개발 버전 업데이트 받기"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2153,6 +2177,12 @@
             "value" : "Resource Update Source"
           }
         },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "리소스 업데이트 출처"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2167,6 +2197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restart the app for changes to take effect."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항을 적용하려면 앱을 재시작하세요."
           }
         },
         "zh-Hans" : {
@@ -2490,6 +2526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "System proxy may be required."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 프록시를 설정해야 할 수도 있습니다."
           }
         },
         "zh-Hans" : {
@@ -5542,7 +5584,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please note, this is real gacha! Not a simulation!!!"
+            "value" : "Gacha results are real records, not simulations."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "뽑기 결과는 실제 기록이며 시뮬레이션이 아닙니다."
           }
         },
         "zh-Hans" : {
@@ -7925,6 +7973,7 @@
       }
     },
     "请打开\"自动战斗\"页，将攻略视频文件拖入外部作业列表即可。" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -7935,7 +7984,6 @@
       }
     },
     "请打开“自动战斗”页，将攻略视频文件拖入外部作业列表即可。" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
