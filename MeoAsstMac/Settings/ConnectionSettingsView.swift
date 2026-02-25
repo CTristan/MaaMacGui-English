@@ -12,7 +12,7 @@ struct ConnectionSettingsView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Picker("触控模式", selection: $viewModel.touchMode) {
+            Picker(String(localized: "触控模式"), selection: $viewModel.touchMode) {
                 ForEach(MaaTouchMode.allCases, id: \.self) { mode in
                     Text(mode.rawValue)
                 }
@@ -24,7 +24,7 @@ struct ConnectionSettingsView: View {
             }
 
             HStack {
-                Text("连接地址")
+                Text(String(localized: "连接地址"))
                 TextField("", text: $viewModel.connectionAddress)
             }
 
@@ -32,16 +32,16 @@ struct ConnectionSettingsView: View {
 
             Toggle(isOn: allowGzip) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("允许使用 Gzip")
-                    Text("使用 Gzip 压缩有可能会出现内存泄漏，非测试用途建议关闭。")
+                    Text(String(localized: "允许使用 Gzip"))
+                    Text(String(localized: "使用 Gzip 压缩有可能会出现内存泄漏，非测试用途建议关闭。"))
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }
 
             Toggle(isOn: $viewModel.useAdbLite) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("使用 adb-lite 连接")
-                    Text("实验性功能，理论性能更好。")
+                    Text(String(localized: "使用 adb-lite 连接"))
+                    Text(String(localized: "实验性功能，理论性能更好。"))
                         .font(.caption).foregroundStyle(.secondary)
                 }
             }

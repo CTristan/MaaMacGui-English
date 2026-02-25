@@ -14,7 +14,7 @@ struct RecruitSettingsView: View {
         VStack(alignment: .leading) {
             Toggle("自动刷新3星Tags", isOn: $config.refresh)
 
-            Toggle("自动使用加急许可", isOn: $config.expedite)
+            Toggle(String(localized: "自动使用加急许可"), isOn: $config.expedite)
 
             Toggle("3星设置7:40而非9:00", isOn: level3UseShortTime)
 

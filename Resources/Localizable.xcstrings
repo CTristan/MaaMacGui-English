@@ -4,8 +4,25 @@
     "" : {
       "shouldTranslate" : false
     },
+    "\"开局干员\"使用助战" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Starting Operator\" Use Support"
+          }
+        }
+      }
+    },
     "“开局干员”使用助战" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Starting Operator\" Use Support"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19,6 +36,12 @@
     },
     "%@ GiveUpUploadingPenguins" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ GiveUpUploadingPenguins"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +58,12 @@
     },
     "%@ HasReturned" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ HasReturned"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54,6 +83,12 @@
     },
     "%lld ★ Tags" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ★ Tags"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73,6 +108,12 @@
     },
     "<无忧梦呓>请使用特殊关卡名，如AveMujica-8" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<Nightmare> Please use special stage names like AveMujica-8"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,6 +130,12 @@
     },
     "1层全买。\n2层买寻访凭证和招聘许可。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buy everything on Floor 1.\nBuy Fervor Certificates and Recruitment Permits on Floor 2."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -99,6 +146,12 @@
     },
     "3星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -109,6 +162,12 @@
     },
     "3星设置7:40而非9:00" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set 3★ to 7:40 instead of 9:00"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +178,12 @@
     },
     "4星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -129,6 +194,12 @@
     },
     "5星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -139,6 +210,12 @@
     },
     "6星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +226,12 @@
     },
     "ActingCommandError" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ActingCommandError"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +248,12 @@
     },
     "AlgorithmDoneSmeltGold %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AlgorithmDoneSmeltGold %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -179,8 +268,48 @@
         }
       }
     },
+    "Allow Gzip" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Gzip"
+          }
+        }
+      }
+    },
+    "Allow Preventing System Sleep" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Preventing System Sleep"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 절전 모드 방지 허용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许阻止系统睡眠"
+          }
+        }
+      }
+    },
     "AllTasksComplete" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AllTasksComplete"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +326,12 @@
     },
     "AP-5" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AP-5"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -213,6 +348,12 @@
     },
     "AT-相谈室" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AT - Mikage Consultation Office - Mini Game"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,8 +362,80 @@
         }
       }
     },
+    "Auto Resource Update" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Resource Update"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 리소스 업데이트"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动更新资源"
+          }
+        }
+      }
+    },
+    "Automatically Check for Updates" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically Check for Updates"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 업데이트 확인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动检查更新"
+          }
+        }
+      }
+    },
+    "Automatically Download Updates" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically Download Updates"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 업데이트 다운로드"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动下载更新"
+          }
+        }
+      }
+    },
     "BattleFormation: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BattleFormation: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -239,6 +452,12 @@
     },
     "BattleFormationSelected %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BattleFormationSelected %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,6 +474,12 @@
     },
     "BegunToExplore %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BegunToExplore %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -271,6 +496,12 @@
     },
     "Bilibili服" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilibili"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -281,6 +512,12 @@
     },
     "CA-5" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CA-5"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -295,27 +532,30 @@
         }
       }
     },
-    "CombatOps" : {
+    "CDK" : {
       "localizations" : {
-        "ko" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "스테이지: 일반 작전"
+            "value" : "CDK"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "关卡：普通作战"
+            "value" : "CDK"
           }
         }
       }
     },
-    "CDK" : {
-      "shouldTranslate" : false
-    },
     "CE-6" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CE-6"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -332,6 +572,12 @@
     },
     "CheckSettings" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CheckSettings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -348,6 +594,12 @@
     },
     "Choose Tags: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Tags: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -362,8 +614,25 @@
         }
       }
     },
+    "Client Type:" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client Type:"
+          }
+        }
+      }
+    },
     "CombatError" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CombatError"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -378,8 +647,36 @@
         }
       }
     },
+    "CombatOps" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CombatOps"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스테이지: 일반 작전"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关卡：普通作战"
+          }
+        }
+      }
+    },
     "CompleteCombat" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CompleteCombat"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -396,6 +693,12 @@
     },
     "CompleteTask %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CompleteTask %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -412,6 +715,12 @@
     },
     "ConnectFailed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ConnectFailed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -428,6 +737,12 @@
     },
     "ConnectingToEmulator" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ConnectingToEmulator"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -442,8 +757,42 @@
         }
       }
     },
+    "Connection Address" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection Address"
+          }
+        }
+      }
+    },
+    "Connection Settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接设置"
+          }
+        }
+      }
+    },
     "CurrentStage %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CurrentStage %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -460,6 +809,12 @@
     },
     "DreadfulFoe" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DreadfulFoe"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -476,6 +831,12 @@
     },
     "DropRecognitionError" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DropRecognitionError"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -492,6 +853,12 @@
     },
     "EmergencyOps" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EmergencyOps"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -508,6 +875,12 @@
     },
     "Encounter" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encounter"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -524,6 +897,12 @@
     },
     "ErrorOccurred" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ErrorOccurred"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -540,6 +919,12 @@
     },
     "ExpiringMedicineUsed %lld(+%lld) UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExpiringMedicineUsed %lld(+%lld) UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -556,6 +941,12 @@
     },
     "ExplorationAbandoned" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ExplorationAbandoned"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -572,6 +963,12 @@
     },
     "FailedToOpenClient" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FailedToOpenClient"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -588,6 +985,12 @@
     },
     "FastestWayToScreencap: %@ms (%@)" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FastestWayToScreencap: %@ms (%@)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -604,6 +1007,12 @@
     },
     "FightCompleted" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FightCompleted"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -620,6 +1029,12 @@
     },
     "FightFailed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FightFailed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -636,6 +1051,12 @@
     },
     "GachaInitTip" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaInitTip"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -652,6 +1073,12 @@
     },
     "GachaTip1" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip1"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -668,6 +1095,12 @@
     },
     "GachaTip2" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip2"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -684,6 +1117,12 @@
     },
     "GachaTip3" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip3"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -700,6 +1139,12 @@
     },
     "GachaTip4" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip4"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -716,6 +1161,12 @@
     },
     "GachaTip5" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip5"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -732,6 +1183,12 @@
     },
     "GachaTip6" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip6"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -748,6 +1205,12 @@
     },
     "GachaTip7" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip7"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -764,6 +1227,12 @@
     },
     "GachaTip8" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip8"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -780,6 +1249,12 @@
     },
     "GachaTip9" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip9"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -796,6 +1271,12 @@
     },
     "GachaTip10" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip10"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -812,6 +1293,12 @@
     },
     "GachaTip11" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip11"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -828,6 +1315,12 @@
     },
     "GachaTip12" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip12"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -844,6 +1337,12 @@
     },
     "GachaTip13" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip13"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -860,6 +1359,12 @@
     },
     "GachaTip14" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip14"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -876,6 +1381,12 @@
     },
     "GachaTip15" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip15"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -892,6 +1403,12 @@
     },
     "GachaTip16" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip16"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -908,6 +1425,12 @@
     },
     "GachaTip17" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GachaTip17"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -924,6 +1447,12 @@
     },
     "GainParadigm %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GainParadigm %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -938,8 +1467,31 @@
         }
       }
     },
+    "Game Settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游戏设置"
+          }
+        }
+      }
+    },
     "GameCrash" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GameCrash"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -956,6 +1508,12 @@
     },
     "GameDrop" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GameDrop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -973,8 +1531,25 @@
     "GitHub" : {
       "shouldTranslate" : false
     },
+    "Gzip Memory Warning" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using Gzip compression may cause memory leaks. It is recommended to disable this for non-testing purposes."
+          }
+        }
+      }
+    },
     "HasInvested %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HasInvested %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -991,6 +1566,12 @@
     },
     "IdentifyTheMistakes" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IdentifyTheMistakes"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1007,6 +1588,12 @@
     },
     "InfrastDormDoubleConfirmed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "InfrastDormDoubleConfirmed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1023,6 +1610,12 @@
     },
     "IP请求频率过快，请稍后再试" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP request rate too high, please try again later."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1033,6 +1626,12 @@
     },
     "LabelsRefreshed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LabelsRefreshed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1049,6 +1648,12 @@
     },
     "LS-6" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LS-6"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1068,6 +1673,12 @@
     },
     "MedicineUsed %lld(+%lld) UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MedicineUsed %lld(+%lld) UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1084,6 +1695,12 @@
     },
     "MirrorChyan" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MirrorChyan"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1100,6 +1717,12 @@
     },
     "MissionStart" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MissionStart"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1116,6 +1739,12 @@
     },
     "MissionStart %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MissionStart %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1132,6 +1761,12 @@
     },
     "NoDrop" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NoDrop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1148,6 +1783,12 @@
     },
     "NotEnoughStaff" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NotEnoughStaff"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1163,10 +1804,23 @@
       }
     },
     "OS-喀兰贸易技术研发部" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OS-Karlan Trade Technology R&amp;D Department"
+          }
+        }
+      }
     },
     "PlayCover 链接…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PlayCover Link..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1175,8 +1829,25 @@
         }
       }
     },
+    "PlayTools Documentation" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please refer to the [documentation](https://maa.plus/docs/en/manual/device/macos.html) for PlayTools usage."
+          }
+        }
+      }
+    },
     "PlayTools 的使用请参考[文档](https://maa.plus/docs/zh-cn/manual/device/macos.html)。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please refer to the [documentation](https://maa.plus/docs/en/manual/device/macos.html) for PlayTools usage."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1858,12 @@
     },
     "Please select one task to config" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select one task to config"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,8 +1878,36 @@
         }
       }
     },
+    "Prevent System Sleep" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prevent System Sleep"
+          }
+        }
+      }
+    },
+    "Prevent System Sleep Tip" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scheduled tasks may fail after system sleep. Enable this to prevent automatic sleep."
+          }
+        }
+      }
+    },
     "ProductIncorrect" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ProductIncorrect"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1218,10 +1923,23 @@
       }
     },
     "PV-烟花筹委会" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PV - Fireworks Organizing Committee"
+          }
+        }
+      }
     },
     "Read item_index.json failed: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read item_index.json failed: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1236,8 +1954,36 @@
         }
       }
     },
+    "Receive Beta Updates" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receive Beta Updates"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개발 버전 업데이트 받기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接收测试版更新"
+          }
+        }
+      }
+    },
     "ReconnectFailed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ReconnectFailed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1254,6 +2000,12 @@
     },
     "ReconnectSuccess" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ReconnectSuccess"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1270,6 +2022,12 @@
     },
     "RecruitConfirm" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecruitConfirm"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1286,6 +2044,12 @@
     },
     "RecruitingResults: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecruitingResults: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1302,6 +2066,12 @@
     },
     "RecruitmentRecognitionTip" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RecruitmentRecognitionTip"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1318,6 +2088,12 @@
     },
     "Refreshed %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refreshed %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1334,6 +2110,12 @@
     },
     "ResolutionAcquisitionFailure" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ResolutionAcquisitionFailure"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1350,6 +2132,12 @@
     },
     "ResolutionNotSupported" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ResolutionNotSupported"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1364,11 +2152,85 @@
         }
       }
     },
+    "Resource update not needed" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource update not needed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资源无需更新"
+          }
+        }
+      }
+    },
+    "Resource Update Source" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource Update Source"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "리소스 업데이트 출처"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资源更新来源"
+          }
+        }
+      }
+    },
+    "Restart App for Changes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart the app for changes to take effect."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항을 적용하려면 앱을 재시작하세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重启应用以使更改生效。"
+          }
+        }
+      }
+    },
     "RM-次生预案" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RM-Contingency Plan"
+          }
+        }
+      }
     },
     "RoguelikeGamePass" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RoguelikeGamePass"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1385,6 +2247,12 @@
     },
     "RoguelikeSpecialItemBought" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RoguelikeSpecialItemBought"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1401,6 +2269,12 @@
     },
     "Running" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,6 +2291,12 @@
     },
     "SafeHouse" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SafeHouse"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1433,6 +2313,12 @@
     },
     "Save to %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save to %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1449,6 +2335,12 @@
     },
     "ScreencapCost: %@ / %@ / %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ScreencapCost: %@ / %@ / %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1465,6 +2357,12 @@
     },
     "ScreencapFailed" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ScreencapFailed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1479,8 +2377,25 @@
         }
       }
     },
+    "SSS_约翰老妈新建地块" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSS-John's Mom New Tile"
+          }
+        }
+      }
+    },
     "SSSGamePass" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSSGamePass"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1497,6 +2412,12 @@
     },
     "StageInfoError" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "StageInfoError"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1513,6 +2434,12 @@
     },
     "StartCombat %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "StartCombat %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1529,6 +2456,12 @@
     },
     "StartTask %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "StartTask %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1545,6 +2478,12 @@
     },
     "StoneUsed %lld UnitTime" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "StoneUsed %lld UnitTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1561,6 +2500,12 @@
     },
     "Stopped" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopped"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1575,8 +2520,53 @@
         }
       }
     },
+    "System Proxy May Be Required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System proxy may be required."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 프록시를 설정해야 할 수도 있습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可能需要系统代理。"
+          }
+        }
+      }
+    },
+    "System Settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统设置"
+          }
+        }
+      }
+    },
     "TaskError %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TaskError %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1593,6 +2583,12 @@
     },
     "TheEX" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TheEX"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1609,6 +2605,12 @@
     },
     "ThisFacility %@ %lld" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThisFacility %@ %lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1625,6 +2627,12 @@
     },
     "TotalDrop\n%@\n\nSanityLeft: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TotalDrop\n%@\n\nSanityLeft: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1639,8 +2647,25 @@
         }
       }
     },
+    "Touch Mode" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch Mode"
+          }
+        }
+      }
+    },
     "TouchModeNotAvaiable" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TouchModeNotAvaiable"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1657,6 +2682,12 @@
     },
     "Trader" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trader"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1673,6 +2704,12 @@
     },
     "TryToReconnect (%lld)" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TryToReconnect (%lld)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1689,6 +2726,12 @@
     },
     "UnsupportedLevel" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UnsupportedLevel"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1703,8 +2746,53 @@
         }
       }
     },
+    "Update failed: " : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update failed: "
+          }
+        }
+      }
+    },
+    "Update failed: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update failed: %@"
+          }
+        }
+      }
+    },
+    "Update Settings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新设置"
+          }
+        }
+      }
+    },
     "UpperLimit" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UpperLimit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1719,8 +2807,36 @@
         }
       }
     },
+    "Use ADB Lite" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use ADB Lite"
+          }
+        }
+      }
+    },
+    "Use ADB Lite Tip" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experimental feature, theoretically better performance."
+          }
+        }
+      }
+    },
     "一层远见密文板" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Far-Sight Cipher Board on Floor 1"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1731,6 +2847,12 @@
     },
     "一键长草" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farming"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1741,6 +2863,12 @@
     },
     "下载作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1751,6 +2879,12 @@
     },
     "不使用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Use"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1761,6 +2895,12 @@
     },
     "不使用无人机" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do not use Drones"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1771,6 +2911,12 @@
     },
     "不切换" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't Switch"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1781,6 +2927,12 @@
     },
     "不加急" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Expedite"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1791,6 +2943,12 @@
     },
     "不将已进驻的干员放入宿舍" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't put stationed Operators in Dormitory"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1801,6 +2959,12 @@
     },
     "不支持此版本 PlayCover" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of PlayCover is not supported."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1811,6 +2975,12 @@
     },
     "不购物" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Shopping"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1821,6 +2991,12 @@
     },
     "专享月卡" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Pass"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1829,8 +3005,25 @@
         }
       }
     },
+    "中级作战记录" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intermediate Battle Record"
+          }
+        }
+      }
+    },
     "主题" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1841,6 +3034,12 @@
     },
     "主题：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1851,6 +3050,12 @@
     },
     "争锋频道：蜜果城" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duel Channel: Honeydew"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1861,6 +3066,12 @@
     },
     "争锋频道：青草城" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duel Channel: Green Grassville"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1871,6 +3082,12 @@
     },
     "从剪贴板读取" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read from Clipboard"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1881,6 +3098,12 @@
     },
     "仓库材料" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depot Materials"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1891,6 +3114,12 @@
     },
     "仓库识别" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1899,8 +3128,24 @@
         }
       }
     },
+    "以人为本分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humanitarian Squad"
+          }
+        }
+      }
+    },
     "任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1911,6 +3156,12 @@
     },
     "企鹅物流" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penguin Logistics"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1921,6 +3172,12 @@
     },
     "企鹅物流汇报ID" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penguin Logistics Report ID"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1931,26 +3188,56 @@
     },
     "优先层数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority Floor"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "층수 우선"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "优先层数"
           }
         }
       }
     },
     "优先投资" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority Investment"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "투자 우선"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "优先投资"
           }
         }
       }
     },
     "优先购买" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority Purchase"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1961,6 +3248,12 @@
     },
     "会客室" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reception Room"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1971,6 +3264,12 @@
     },
     "会客室信息板收取信用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credit collection from message board in Reception Room"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1979,8 +3278,47 @@
         }
       }
     },
+    "体力" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanity"
+          }
+        }
+      }
+    },
+    "作战记录" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battle Record"
+          }
+        }
+      }
+    },
+    "作战记录×10" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battle Record×10"
+          }
+        }
+      }
+    },
     "使用 adb-lite 连接" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use ADB Lite"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1991,6 +3329,12 @@
     },
     "使用 Gzip 压缩有可能会出现内存泄漏，非测试用途建议关闭。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using Gzip compression may cause memory leaks. It is recommended to disable this for non-testing purposes."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2001,6 +3345,12 @@
     },
     "使用密文板" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Cipher Board"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2011,6 +3361,12 @@
     },
     "信息" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2021,6 +3377,12 @@
     },
     "信用溢出时无视黑名单" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignore blacklist if credits overflow"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2031,6 +3393,12 @@
     },
     "信用购物" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credit Shopping"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2041,6 +3409,12 @@
     },
     "信赖干员" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trust Operator"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2051,6 +3425,12 @@
     },
     "借助战赚信用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Earn Credit via Support"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2061,6 +3441,12 @@
     },
     "停止" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2071,6 +3457,12 @@
     },
     "停止任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2081,6 +3473,12 @@
     },
     "傀影" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phantom"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2091,6 +3489,12 @@
     },
     "傀影与猩红血钻" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phantom & Crimson Solitaire"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2101,6 +3505,12 @@
     },
     "储备源石锭达到上限时停止" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stops when invested coins reach limit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2111,6 +3521,12 @@
     },
     "允许" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2121,6 +3537,12 @@
     },
     "允许使用 Gzip" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Gzip"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2131,16 +3553,44 @@
     },
     "允许阻止系统睡眠" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Preventing System Sleep"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "시스템 절전 모드 방지 허용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许阻止系统睡眠"
+          }
+        }
+      }
+    },
+    "先手必胜" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Strike Advantage"
           }
         }
       }
     },
     "免费单抽" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Single Pull"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2151,6 +3601,12 @@
     },
     "全部取消" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deselect All"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2161,6 +3617,12 @@
     },
     "全部启用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable All"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2169,8 +3631,25 @@
         }
       }
     },
+    "公开招募券" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recruitment Permit"
+          }
+        }
+      }
+    },
     "公招词条" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recruit Tags"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2181,6 +3660,12 @@
     },
     "关卡名" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stage Code"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2191,6 +3676,12 @@
     },
     "关卡数据获取失败: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to get stage data: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2201,6 +3692,12 @@
     },
     "关卡选择" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stage Selection"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2211,6 +3708,12 @@
     },
     "关闭游戏" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close Game"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2221,6 +3724,12 @@
     },
     "内置作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2231,6 +3740,12 @@
     },
     "内置排班" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in Roster"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2241,6 +3756,12 @@
     },
     "内置资源版本：%@\n更新时间：%@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in resource version: %@\nUpdated: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2251,6 +3772,12 @@
     },
     "最多投资数量" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max Investment Count"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2261,6 +3788,12 @@
     },
     "最多探索次数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max Exploration Count"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2271,6 +3804,12 @@
     },
     "最高难度" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Highest Difficulty"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2281,6 +3820,12 @@
     },
     "凹2构想开局" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reroll for IS2 Start"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2291,16 +3836,34 @@
     },
     "凹开局" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reroll for Start"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작 리세마라"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "凹开局"
           }
         }
       }
     },
     "凹开局干员精二直升" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reroll for E2 Starting Operator"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2311,6 +3874,12 @@
     },
     "分" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Points"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2321,6 +3890,12 @@
     },
     "分队开局密文板" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Squad Starting Cipher Board"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2331,6 +3906,12 @@
     },
     "初始化失败: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Initialization failed: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2339,8 +3920,25 @@
         }
       }
     },
+    "初级作战记录" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic Battle Record"
+          }
+        }
+      }
+    },
     "删除" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2351,6 +3949,12 @@
     },
     "删除任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2361,6 +3965,12 @@
     },
     "制造站" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Factory"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2371,6 +3981,12 @@
     },
     "制造站-源石碎片" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium Shards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2381,6 +3997,12 @@
     },
     "制造站-经验书" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battle Records"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2391,6 +4013,12 @@
     },
     "制造站-芯片组" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chip Packs"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2401,6 +4029,12 @@
     },
     "制造站-赤金" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pure Gold"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2411,6 +4045,12 @@
     },
     "刷分/奖励点数，尽可能稳定地打更多层数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm points/Reward points, clear as many floors as possible"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2421,6 +4061,12 @@
     },
     "刷分与建造点" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Points and Construction Points"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2431,6 +4077,12 @@
     },
     "刷取数量" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quantity"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2441,16 +4093,45 @@
     },
     "刷坍缩" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Collapse Paradigms"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "붕괴 파밍"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刷坍缩范式"
+          }
+        }
+      }
+    },
+    "刷坍缩范式" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm collapse paradigms"
           }
         }
       }
     },
     "刷坍缩范式，遇到非稀有坍缩范式后重开" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm collapse paradigms, restart when encountering non-rare collapse paradigm"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2461,6 +4142,12 @@
     },
     "刷开局，刷取热水壶或精二干员开局" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reroll for start, get Hot Water Kettle or E2 Operator start"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2471,6 +4158,12 @@
     },
     "刷开局启用购物" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Shopping on Start Reroll"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2481,6 +4174,12 @@
     },
     "刷新商店（指路鳞）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh Rogue Trader with Dice"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2489,8 +4188,25 @@
         }
       }
     },
+    "刷月度小队" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Monthly Squad"
+          }
+        }
+      }
+    },
     "刷月度小队，到达第五层后直接退出" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Monthly Squad, exit after reaching floor 5"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2501,6 +4217,12 @@
     },
     "刷深入调查，尽可能稳定地打更多层数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grind Deep Investigation, clear as far as possible"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2511,6 +4233,12 @@
     },
     "刷源石锭，到达第二层后直接退出" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Originium Shards, exit after reaching floor 2"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2521,6 +4249,12 @@
     },
     "刷理智" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm Sanity"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2531,6 +4265,12 @@
     },
     "刷赤金" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farm LMD"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2541,6 +4281,12 @@
     },
     "剿灭模式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annihilation Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2551,6 +4297,12 @@
     },
     "办公室" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Office"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2561,6 +4313,12 @@
     },
     "加工站" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workshop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2571,6 +4329,12 @@
     },
     "加急" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expedite"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2579,8 +4343,36 @@
         }
       }
     },
+    "加急许可" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expedited Plan"
+          }
+        }
+      }
+    },
+    "助理" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistant"
+          }
+        }
+      }
+    },
     "单设施最优解" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Single Facility Optimal"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2591,6 +4383,12 @@
     },
     "博朗台碎石模式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolan Stone Smashing Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2599,11 +4397,34 @@
         }
       }
     },
+    "博闻广记分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knowledge Squad"
+          }
+        }
+      }
+    },
     "卫戍协议：盟约" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stronghold Protocol: Alliance"
+          }
+        }
+      }
     },
     "发现新资源版本：%@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New resource version found: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2614,6 +4435,12 @@
     },
     "发电站" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Plant"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2624,6 +4451,12 @@
     },
     "取消" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2632,8 +4465,24 @@
         }
       }
     },
+    "取长补短" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prioritize Vanguards"
+          }
+        }
+      }
+    },
     "只凹直升不凹其他" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only Reroll for E2, No Battle"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2644,6 +4493,12 @@
     },
     "可以使用非好友助战" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable non-friend support"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2653,7 +4508,14 @@
       }
     },
     "可能需要设置系统代理。" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System proxy may be required."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2662,8 +4524,24 @@
         }
       }
     },
+    "司岁台分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ageless Court Squad"
+          }
+        }
+      }
+    },
     "吃源石" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Originium"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2674,6 +4552,12 @@
     },
     "吃理智药" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Sanity Potion"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2682,8 +4566,35 @@
         }
       }
     },
+    "合成玉" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orundum"
+          }
+        }
+      }
+    },
+    "后勤分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logistics Squad"
+          }
+        }
+      }
+    },
     "周常任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weekly Tasks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2692,8 +4603,35 @@
         }
       }
     },
+    "因地制宜分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptation Squad"
+          }
+        }
+      }
+    },
+    "固源岩" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium"
+          }
+        }
+      }
+    },
     "国际服（YoStarEN）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "International (YoStarEN)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2704,6 +4642,12 @@
     },
     "在活动主界面（右下角有“开始营业/继续营业”处）开始任务。\n等待自动完成相谈室对话。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start task from the event main screen (bottom-right \"Start Business/Continue Business\").\nWait for automatic Mikage consultation completion."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2713,16 +4657,43 @@
       }
     },
     "在活动主界面（右下角有“开始重建”处）开始任务。" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start task from the event main screen (bottom-right \"Start Rebuild\")."
+          }
+        }
+      }
     },
     "在活动主界面（有“独立模拟”处开始任务）\n手动通关“标准模拟”可以更快的刷分\n只能刷等级奖励，拿蚀刻章得打完所有的“关键目标”" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start task from the event main screen (\"Independent Simulation\")\nManually clearing \"Standard Simulation\" allows faster point farming\nCan only farm level rewards, complete all \"Key Objectives\" to get Emblems"
+          }
+        }
+      }
     },
     "在活动页面最左侧开始" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start from the left side of the event page"
+          }
+        }
+      }
     },
     "在第五层BOSS前暂停" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause before Floor 5 Boss"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2731,8 +4702,34 @@
         }
       }
     },
+    "地面突破分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ground Breakthrough Squad"
+          }
+        }
+      }
+    },
+    "坚不可摧" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indestructible"
+          }
+        }
+      }
+    },
     "基建工作心情阈值: %.0f%%" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infrast Work Morale Threshold: %.0f%%"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2743,6 +4740,12 @@
     },
     "基建换班" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2753,6 +4756,12 @@
     },
     "基建模式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2761,8 +4770,24 @@
         }
       }
     },
+    "堡垒战术分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortress Squad"
+          }
+        }
+      }
+    },
     "复制结果JSON至剪贴板：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy result JSON to clipboard:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2773,6 +4798,12 @@
     },
     "外部作业（可拖入文件）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "External Copilot (drag and drop files)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2783,6 +4814,12 @@
     },
     "外部资源版本：%@\n更新时间：%@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "External resource version: %@\nUpdated: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2791,8 +4828,24 @@
         }
       }
     },
+    "天师府分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celestial Master Squad"
+          }
+        }
+      }
+    },
     "好" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2803,6 +4856,12 @@
     },
     "如果长时间连接不上或出错，请尝试下载使用“文件” > “PlayCover链接…”中的最新版本" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If connection fails or errors persist for a long time, try downloading and using the latest version from \"File\" > \"PlayCover Link...\""
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2813,6 +4872,12 @@
     },
     "官服" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Official (CN)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2823,6 +4888,12 @@
     },
     "实用工具" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilities"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2833,6 +4904,12 @@
     },
     "实验性功能，理论性能更好。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experimental feature, theoretically better performance."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2843,6 +4920,12 @@
     },
     "客户端类型：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client Type:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2853,6 +4936,12 @@
     },
     "客户端类型：%@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client Type: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2861,8 +4950,25 @@
         }
       }
     },
+    "家具零件" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Furniture Part"
+          }
+        }
+      }
+    },
     "宿舍" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dormitory"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2873,6 +4979,12 @@
     },
     "宿舍空余位置蹭信赖" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trust farming in Dormitory"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2883,6 +4995,12 @@
     },
     "寻访一次" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gacha Once"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2891,8 +5009,25 @@
         }
       }
     },
+    "寻访凭证" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permit"
+          }
+        }
+      }
+    },
     "寻访十次" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gacha Ten Times"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2903,6 +5038,12 @@
     },
     "小游戏" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mini-Games"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2911,8 +5052,24 @@
         }
       }
     },
+    "岁影回音分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Age Echo Squad"
+          }
+        }
+      }
+    },
     "岁的界园志异" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jie's Chronicles"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2923,6 +5080,12 @@
     },
     "已启用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enabled"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2931,8 +5094,25 @@
         }
       }
     },
+    "已拥有干员：" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owned Operators: "
+          }
+        }
+      }
+    },
     "已拥有干员：%lld" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owned Operators: %lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2943,6 +5123,12 @@
     },
     "希望" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hope"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2953,6 +5139,12 @@
     },
     "常规模式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2963,6 +5155,12 @@
     },
     "干员列表" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operator List"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2973,6 +5171,12 @@
     },
     "干员寻访" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recruitment"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2983,6 +5187,12 @@
     },
     "干员识别" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operator Recognition"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2993,6 +5203,12 @@
     },
     "幸运墙" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luck Wall"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3001,8 +5217,25 @@
         }
       }
     },
+    "建材" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Building Material"
+          }
+        }
+      }
+    },
     "开启" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3013,6 +5246,12 @@
     },
     "开始" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3023,6 +5262,12 @@
     },
     "开始任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3033,6 +5278,12 @@
     },
     "开始唤醒" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Up"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3043,6 +5294,12 @@
     },
     "开始游戏" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Game"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3053,6 +5310,12 @@
     },
     "开局分队" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting Squad"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3063,6 +5326,12 @@
     },
     "开局干员（单个）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting Operator (Single)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3073,6 +5342,12 @@
     },
     "开局职业组" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting Roles"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3081,8 +5356,24 @@
         }
       }
     },
+    "异想天开分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whimsical Squad"
+          }
+        }
+      }
+    },
     "当前/上次" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cur/Last"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3093,6 +5384,12 @@
     },
     "当前难度" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Difficulty"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3103,6 +5400,12 @@
     },
     "待刷坍缩范式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collapse Paradigms to Farm"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3113,6 +5416,12 @@
     },
     "循环次数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loop Times"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3121,8 +5430,24 @@
         }
       }
     },
+    "心胜于物分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mind Over Matter Squad"
+          }
+        }
+      }
+    },
     "我已知晓，继续" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I understand, continue"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3133,6 +5458,12 @@
     },
     "手动确认1星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manually confirm 1★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3143,6 +5474,12 @@
     },
     "手动跳过教程对话，然后可以直接退出。\n在活动主界面（右下角有“加入赛事”处）开始任务。\n\n跟着鸭总喝口汤。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manually skip tutorial dialog, then you can exit.\nStart task from the event main screen (bottom-right \"Join Event\").\n\nFollow Duck Chief."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3153,6 +5490,12 @@
     },
     "手动输入关卡名" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manual entry of stage names"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3163,6 +5506,12 @@
     },
     "打开根目录…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Root Directory..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3173,6 +5522,12 @@
     },
     "打开自定义排班文件夹…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Custom Roster Folder..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3181,8 +5536,25 @@
         }
       }
     },
+    "技巧概要" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skill Summary"
+          }
+        }
+      }
+    },
     "投资后进二层" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proceed to floor 2 after investment"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3193,6 +5565,12 @@
     },
     "投资源石锭" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invest coins"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3201,8 +5579,68 @@
         }
       }
     },
+    "抽卡结果为真实记录，非模拟" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gacha results are real records, not simulations."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "뽑기 결과는 실제 기록이며 시뮬레이션이 아닙니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽卡结果为真实记录，非模拟"
+          }
+        }
+      }
+    },
+    "招揽信" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recruitment Letter"
+          }
+        }
+      }
+    },
+    "招聘许可" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recruitment Permit"
+          }
+        }
+      }
+    },
+    "拟态学者分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mimicry Scholar Squad"
+          }
+        }
+      }
+    },
     "指定材料" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Material"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3213,6 +5651,12 @@
     },
     "指定次数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perform Battles"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3221,8 +5665,24 @@
         }
       }
     },
+    "指挥分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Squad"
+          }
+        }
+      }
+    },
     "按住加号按钮" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold the + button"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3233,6 +5693,12 @@
     },
     "探索者的银凇止境" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorers' Silverash Terminus"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3242,7 +5708,14 @@
       }
     },
     "接收开发版更新" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receive Beta Updates"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3253,6 +5726,12 @@
     },
     "控制中枢" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control Center"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3263,6 +5742,12 @@
     },
     "支援道具：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support Items:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3273,6 +5758,12 @@
     },
     "收取信用及购物" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collect Credits and Shop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3283,6 +5774,12 @@
     },
     "文件格式错误" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File format error"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3293,6 +5790,12 @@
     },
     "新增定时" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Schedule"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3303,6 +5806,12 @@
     },
     "方案" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plan"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3313,6 +5822,12 @@
     },
     "无下载链接，请检查CDK" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No download link, please check CDK"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3323,6 +5838,12 @@
     },
     "无人机用途" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drone Usage"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3333,6 +5854,12 @@
     },
     "无存档，通过进出关卡刷生息点数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I do not have a save, let's farm prosperity points by repeatedly entering and exiting stages."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3343,6 +5870,12 @@
     },
     "无效文件" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid file"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3353,6 +5886,12 @@
     },
     "无法找到游戏文件: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cannot find game file: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3363,6 +5902,12 @@
     },
     "无法检查资源更新: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cannot check resource update: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3373,6 +5918,12 @@
     },
     "无法识别配置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cannot recognize configuration"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3383,6 +5934,12 @@
     },
     "无限吃48小时内过期的理智药" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use all Sanity Potions expiring within 48 hours"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3393,6 +5950,12 @@
     },
     "无需更新" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No update needed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3403,6 +5966,12 @@
     },
     "无需更新资源" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource update not needed"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3413,6 +5982,12 @@
     },
     "日常任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daily Tasks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3423,6 +5998,12 @@
     },
     "日常任务定时执行会在系统休眠之后失效, 打开此功能可以阻止系统自动睡眠" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scheduled tasks may fail after system sleep. Enable this to prevent automatic sleep."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3433,6 +6014,12 @@
     },
     "日志" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3443,6 +6030,12 @@
     },
     "日志文件出错: %@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log file error: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3453,6 +6046,12 @@
     },
     "日服（YoStarJP）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japanese (YoStarJP)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3463,6 +6062,12 @@
     },
     "时" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hour"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3473,6 +6078,12 @@
     },
     "时间" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3483,6 +6094,12 @@
     },
     "明日方舟工具箱" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arknights Toolbox"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3493,6 +6110,12 @@
     },
     "更新失败：%@" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update failed: %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3503,6 +6126,12 @@
     },
     "更新完成" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update complete"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3513,6 +6142,12 @@
     },
     "更新设置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3523,16 +6158,34 @@
     },
     "月度小队" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Squad"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "월간 스쿼드"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月度小队"
           }
         }
       }
     },
     "月度小队自动切换" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Squad Auto-Switch"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3543,6 +6196,12 @@
     },
     "月度小队通讯" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly Squad Communication"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3553,6 +6212,12 @@
     },
     "有存档，通过组装支援道具刷生息点数，组装完成后将会跳到下一个量定日并读取前一个量定日的存档" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With save, farm Survival Points by assembling support items. After assembly, will skip to the next quantified day and load the previous day's save"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3563,6 +6228,12 @@
     },
     "未启用" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3571,8 +6242,25 @@
         }
       }
     },
+    "未拥有干员：" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operators not owned: "
+          }
+        }
+      }
+    },
     "未拥有干员：%lld" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Operators not owned: %lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3583,6 +6271,12 @@
     },
     "未知排班" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown Roster"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3593,6 +6287,12 @@
     },
     "构想" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thought"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3603,6 +6303,12 @@
     },
     "查找日志…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find Logs..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3613,6 +6319,12 @@
     },
     "查找资源…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find Resources..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3623,6 +6335,12 @@
     },
     "检查更新…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3633,6 +6351,12 @@
     },
     "检测获取的坍缩范式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detect Collapse Paradigms Obtained"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3641,8 +6365,24 @@
         }
       }
     },
+    "棋行险着分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gambler Squad"
+          }
+        }
+      }
+    },
     "次" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "times"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3653,6 +6393,12 @@
     },
     "正在下载…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloading..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3663,6 +6409,12 @@
     },
     "正在解压…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extracting..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3673,6 +6425,12 @@
     },
     "每次执行时最大招募次数: " : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max recruitments per run: "
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3683,6 +6441,12 @@
     },
     "水月" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mizuki"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3693,6 +6457,12 @@
     },
     "水月与深蓝之树" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lingering Waves"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3701,8 +6471,24 @@
         }
       }
     },
+    "永恒狩猎分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eternal Hunt Squad"
+          }
+        }
+      }
+    },
     "沙中之火" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fire Within the Sand"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3713,6 +6499,12 @@
     },
     "沙洲遗闻" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tales Within the Sand"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3723,6 +6515,12 @@
     },
     "活动商店" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Event Shop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3733,16 +6531,34 @@
     },
     "深入调查" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deep Investigation"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "심층 조사"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深入调查"
           }
         }
       }
     },
     "深度调查自动切换" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deep Investigation Auto-Switch"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3753,6 +6569,12 @@
     },
     "添加" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3763,6 +6585,12 @@
     },
     "添加…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3773,6 +6601,12 @@
     },
     "添加任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3783,6 +6617,12 @@
     },
     "添加作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3791,8 +6631,24 @@
         }
       }
     },
+    "游客分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tourist Squad"
+          }
+        }
+      }
+    },
     "游戏设置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game Settings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3803,6 +6659,12 @@
     },
     "源石" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3811,8 +6673,25 @@
         }
       }
     },
+    "源石碎片" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium Shard"
+          }
+        }
+      }
+    },
     "源石碎片自动补货" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium Shard auto replenishment"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3823,6 +6702,12 @@
     },
     "源石锭" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium Shards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3833,6 +6718,12 @@
     },
     "满级后自动停止" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop when max level is achieved"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3841,8 +6732,24 @@
         }
       }
     },
+    "灵活部署" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flexible Deployment"
+          }
+        }
+      }
+    },
     "点击加号按钮" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Click the + button"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3851,8 +6758,24 @@
         }
       }
     },
+    "点刺成锭分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originium Ingot Squad"
+          }
+        }
+      }
+    },
     "烧水分队" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collapse Squad"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3863,6 +6786,12 @@
     },
     "烧水奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collapse Rewards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3873,6 +6802,12 @@
     },
     "热水壶" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hot Water Kettle"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3881,8 +6816,55 @@
         }
       }
     },
+    "物尽其用分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource Utilization Squad"
+          }
+        }
+      }
+    },
+    "特勤分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Special Ops Squad"
+          }
+        }
+      }
+    },
+    "特级作战记录" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elite Battle Record"
+          }
+        }
+      }
+    },
+    "特训分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Special Training Squad"
+          }
+        }
+      }
+    },
     "现在" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3893,6 +6875,12 @@
     },
     "班次" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shift"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3901,8 +6889,47 @@
         }
       }
     },
+    "理智" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanity"
+          }
+        }
+      }
+    },
+    "理智合剂" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanity Potion"
+          }
+        }
+      }
+    },
+    "理智合剂×2" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanity Potion×2"
+          }
+        }
+      }
+    },
     "理智药" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanity Potion"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3913,6 +6940,12 @@
     },
     "生息演算" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reclamation Algorithm"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3923,6 +6956,12 @@
     },
     "生息演算商店" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reclamation Algorithm Shop"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3931,8 +6970,24 @@
         }
       }
     },
+    "生活至上分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Life First Squad"
+          }
+        }
+      }
+    },
     "界园" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sui's Garden"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3943,6 +6998,12 @@
     },
     "登录名" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login Name"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3953,6 +7014,12 @@
     },
     "盾" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shield"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3961,8 +7028,66 @@
         }
       }
     },
+    "矛头分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spearhead Squad"
+          }
+        }
+      }
+    },
+    "研究分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research Squad"
+          }
+        }
+      }
+    },
+    "破坏战术分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destruction Squad"
+          }
+        }
+      }
+    },
+    "碳素" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbon"
+          }
+        }
+      }
+    },
+    "碳素组" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbon Cluster"
+          }
+        }
+      }
+    },
     "视频作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3973,6 +7098,12 @@
     },
     "视频识别" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Recognition"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3983,6 +7114,12 @@
     },
     "神秘代码 [作业站链接](https://prts.plus)" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secret Code [Copilot Station Link](https://prts.plus)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3991,8 +7128,24 @@
         }
       }
     },
+    "科学主义分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scientism Squad"
+          }
+        }
+      }
+    },
     "移除" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4003,6 +7156,12 @@
     },
     "移除作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4011,8 +7170,34 @@
         }
       }
     },
+    "稳扎稳打" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steady Progress"
+          }
+        }
+      }
+    },
+    "突击战术分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assault Squad"
+          }
+        }
+      }
+    },
     "策略" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strategy"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4023,6 +7208,12 @@
     },
     "策略：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strategy:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4033,6 +7224,12 @@
     },
     "精英%lld Lv%lld 潜能%lld" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elite %lld Lv %lld Potential %lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4047,8 +7244,36 @@
         }
       }
     },
+    "糖" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sugar"
+          }
+        }
+      }
+    },
+    "糖×4" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sugar×4"
+          }
+        }
+      }
+    },
     "系统设置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System Settings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4059,6 +7284,12 @@
     },
     "组装批次数：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assembly batch count:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4069,6 +7300,12 @@
     },
     "组装数量增加模式：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assembly quantity increase mode:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4079,6 +7316,12 @@
     },
     "绿票商店" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Green Ticket Store"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4089,6 +7332,12 @@
     },
     "繁中服（txwy）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TW/HK/MO (txwy)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4098,7 +7347,14 @@
       }
     },
     "自动下载更新" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically Download Updates"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4109,6 +7365,12 @@
     },
     "自动使用加急许可" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Use Expedited Permit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4119,6 +7381,12 @@
     },
     "自动公招" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Recruit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4129,6 +7397,12 @@
     },
     "自动刷新3星Tags" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Refresh 3★ Tags"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4139,6 +7413,12 @@
     },
     "自动启动" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Start"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4149,6 +7429,12 @@
     },
     "自动启动客户端" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Start Client"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4159,6 +7445,12 @@
     },
     "自动战斗" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4169,6 +7461,12 @@
     },
     "自动抄作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Copy Copilot"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4179,6 +7477,12 @@
     },
     "自动抄保全作业" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Copy Copilot for IS"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4188,7 +7492,14 @@
       }
     },
     "自动检查更新" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically Check for Updates"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4199,6 +7510,12 @@
     },
     "自动滚动到底部" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Scroll to Bottom"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4209,6 +7526,12 @@
     },
     "自动确认3星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Confirm 3★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4219,6 +7542,12 @@
     },
     "自动确认4星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Confirm 4★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4229,6 +7558,12 @@
     },
     "自动确认5星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Confirm 5★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4239,6 +7574,12 @@
     },
     "自动确认6星" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Confirm 6★"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4249,6 +7590,12 @@
     },
     "自动编队" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Squad"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4259,6 +7606,12 @@
     },
     "自动肉鸽" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Roguelike"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4269,6 +7622,12 @@
     },
     "自动设置时间" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto set time"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4278,7 +7637,14 @@
       }
     },
     "自动资源更新" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Resource Update"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4289,6 +7655,12 @@
     },
     "自动选择 Tags：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto Select Tags:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4299,6 +7671,12 @@
     },
     "自定义" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4309,6 +7687,12 @@
     },
     "自定义基建配置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Base Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4319,6 +7703,12 @@
     },
     "自定义排班" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Roster"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4327,8 +7717,24 @@
         }
       }
     },
+    "花团锦簇分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blossom Squad"
+          }
+        }
+      }
+    },
     "萨卡兹" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarkaz"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4339,6 +7745,12 @@
     },
     "萨卡兹的无终奇语" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarkaz's Furnace Hollow"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4349,6 +7761,12 @@
     },
     "萨米" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sami"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4357,8 +7775,24 @@
         }
       }
     },
+    "蓝图测绘分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blueprint Squad"
+          }
+        }
+      }
+    },
     "装备：" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equipment:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4369,6 +7803,12 @@
     },
     "触控模式" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touch Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4379,6 +7819,12 @@
     },
     "训练完成后继续尝试专精当前技能" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After training is complete, try to continue mastering the current Skill"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4389,6 +7835,12 @@
     },
     "训练室" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Training Room"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4399,6 +7851,12 @@
     },
     "设置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4409,6 +7867,12 @@
     },
     "访问被禁止，请检查IP或CDK" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access denied, please check IP or CDK"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4419,6 +7883,12 @@
     },
     "请从边栏选择功能" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select a function from the sidebar"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4427,8 +7897,25 @@
         }
       }
     },
+    "请在\"设置\" > \"游戏设置\" 中选择客户端类型。" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select client type in \"Settings\" > \"Game Settings\"."
+          }
+        }
+      }
+    },
     "请在“设置” > “游戏设置” 中选择客户端类型。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select client type in \"Settings\" > \"Game Settings\"."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4439,6 +7926,12 @@
     },
     "请在活动商店页面开始。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please start from the event shop page."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4449,6 +7942,12 @@
     },
     "请在活动商店页面开始。\n不买无限池。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please start from the event shop page.\nDo not buy unlimited pool items."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4459,6 +7958,12 @@
     },
     "请将PlayCover的分辨率设置为1280x720、分辨率缩放设置为1.0。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please set PlayCover resolution to 1280x720 and resolution scale to 1.0."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4467,8 +7972,25 @@
         }
       }
     },
+    "请打开\"自动战斗\"页，将攻略视频文件拖入外部作业列表即可。" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please open \"Auto Battle\" page and drag the strategy video file into the external copilot list."
+          }
+        }
+      }
+    },
     "请打开“自动战斗”页，将攻略视频文件拖入外部作业列表即可。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please open the \"Auto Battle\" page and drag the strategy video file into the external copilot list."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4478,7 +8000,14 @@
       }
     },
     "请注意，这是真的抽卡！不是模拟！！！" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please note, this is real gacha! Not a simulation!!!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4489,6 +8018,12 @@
     },
     "请确保这是最后一个任务" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please ensure this is the last task"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4499,6 +8034,12 @@
     },
     "请选择内容项目" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select content items"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4509,6 +8050,12 @@
     },
     "请选择识别项目" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please select recognition items"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4519,6 +8066,12 @@
     },
     "账号切换" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account Switch"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4529,6 +8082,12 @@
     },
     "购买寻访凭证。\n请确保自己至少有258张黄票。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buy Fervor Certificates.\nPlease ensure you have at least 258 yellow tickets."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4539,6 +8098,12 @@
     },
     "购物" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shopping"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4549,6 +8114,12 @@
     },
     "贸易站" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trading Post"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4559,6 +8130,12 @@
     },
     "贸易站-合成玉" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orundums"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4569,6 +8146,12 @@
     },
     "贸易站-龙门币" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LMD"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4579,6 +8162,12 @@
     },
     "资源已是最新版本" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resources are up to date"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4589,6 +8178,12 @@
     },
     "资源更新…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource Update..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4598,7 +8193,14 @@
       }
     },
     "资源更新来源" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resource Update Source"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4607,11 +8209,35 @@
         }
       }
     },
+    "赤金" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orundum"
+          }
+        }
+      }
+    },
     "过完新手教程后进入前哨支点，滑动到界面最左侧。" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After completing the tutorial, enter the Outpost and swipe to the leftmost side of the screen."
+          }
+        }
+      }
     },
     "运行日志" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Run Log"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4622,6 +8248,12 @@
     },
     "进行每日免费单抽" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do Daily Free Single Pull"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4630,8 +8262,24 @@
         }
       }
     },
+    "远程战术分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ranged Squad"
+          }
+        }
+      }
+    },
     "连战次数" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consecutive Battle Count"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4642,6 +8290,12 @@
     },
     "连接地址" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection address"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4652,6 +8306,12 @@
     },
     "连接设置" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4662,6 +8322,12 @@
     },
     "选择小游戏" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Mini-game"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4672,6 +8338,12 @@
     },
     "选择本地文件…" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Local File..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4682,6 +8354,12 @@
     },
     "邮件" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4690,8 +8368,25 @@
         }
       }
     },
+    "郁金香" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warfarin"
+          }
+        }
+      }
+    },
     "重新加载文件" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reload File"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4701,7 +8396,14 @@
       }
     },
     "重新打开应用后生效。" : {
+      "extractionState" : "stale",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart the app for changes to take effect."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4712,6 +8414,12 @@
     },
     "钥匙" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4722,6 +8430,12 @@
     },
     "队列轮换" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One-click Rotation Mode"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4732,6 +8446,12 @@
     },
     "阻止系统睡眠" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prevent System Sleep"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4740,8 +8460,25 @@
         }
       }
     },
+    "阿米娅-WARRIOR" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amiya-WARRIOR"
+          }
+        }
+      }
+    },
     "限时开采许可" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limited Mining Permit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4750,8 +8487,24 @@
         }
       }
     },
+    "随心所欲" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At Will"
+          }
+        }
+      }
+    },
     "随机奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Random Reward"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4762,6 +8515,12 @@
     },
     "难度" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4770,8 +8529,126 @@
         }
       }
     },
+    "难度0" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 0"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度0"
+          }
+        }
+      }
+    },
+    "难度1" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 1"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度1"
+          }
+        }
+      }
+    },
+    "难度2" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 2"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度2"
+          }
+        }
+      }
+    },
+    "难度3" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 3"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度3"
+          }
+        }
+      }
+    },
+    "难度4" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 4"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度4"
+          }
+        }
+      }
+    },
+    "难度5" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Difficulty 5"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "难度5"
+          }
+        }
+      }
+    },
+    "集群分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cluster Squad"
+          }
+        }
+      }
+    },
     "需要视频分辨率为 16:9，且无黑边、模拟器边框、异形屏矫正等干扰因素。" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video resolution must be 16:9, without black bars, emulator borders, notch correction, or other interfering elements."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4782,6 +8659,12 @@
     },
     "韩服（YoStarKR）" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korean (YoStarKR)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4790,8 +8673,69 @@
         }
       }
     },
+    "预备干员-后勤" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve-Specialist"
+          }
+        }
+      }
+    },
+    "预备干员-术师" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve-Caster"
+          }
+        }
+      }
+    },
+    "预备干员-狙击" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve-Sniper"
+          }
+        }
+      }
+    },
+    "预备干员-近战" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve-Vanguard"
+          }
+        }
+      }
+    },
+    "预备干员-重装" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserve-Defender"
+          }
+        }
+      }
+    },
     "领取周年庆赠送月卡奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Claim Anniversary Monthly Pass Reward"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4802,6 +8746,12 @@
     },
     "领取奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collect Rewards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4812,6 +8762,12 @@
     },
     "领取幸运墙合成玉奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Claim Luck Wall Orundum Reward"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4822,6 +8778,12 @@
     },
     "领取所有邮件奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collect all mail rewards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4832,6 +8794,12 @@
     },
     "领取每日/每周任务奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collect daily/weekly mission rewards"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4842,6 +8810,12 @@
     },
     "领取限时开采许可合成玉奖励" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Claim Limited Mining Permit Orundum Reward"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4852,6 +8826,12 @@
     },
     "骰子" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dice"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4860,8 +8840,55 @@
         }
       }
     },
+    "高台突破分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Ground Breakthrough Squad"
+          }
+        }
+      }
+    },
+    "高级作战记录" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced Battle Record"
+          }
+        }
+      }
+    },
+    "高规格分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Spec Squad"
+          }
+        }
+      }
+    },
+    "魂灵护送分队" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spirit Escort Squad"
+          }
+        }
+      }
+    },
     "黄票商店" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yellow Ticket Store"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4872,6 +8899,12 @@
     },
     "黑名单" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blacklist"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4882,10 +8915,49 @@
     },
     "默认换班" : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default Shift"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "기본 교대"
+          }
+        }
+      }
+    },
+    "龙门币" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LMD"
+          }
+        }
+      }
+    },
+    "龙门币×1000" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LMD×1000"
+          }
+        }
+      }
+    },
+    "龙门币×10000" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LMD×10000"
           }
         }
       }

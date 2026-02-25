@@ -22,7 +22,7 @@ struct CopilotContent: View {
                     Text(url.lastPathComponent)
                 }
             } label: {
-                Text("内置作业")
+                Text(String(localized: "内置作业"))
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .foregroundStyle(.secondary)
@@ -69,9 +69,9 @@ struct CopilotContent: View {
     @ToolbarContentBuilder private func listToolbar() -> some ToolbarContent {
         ToolbarItemGroup {
             Button(action: deleteSelectedCopilot) {
-                Label("移除", systemImage: "trash")
+                Label(String(localized: "移除"), systemImage: "trash")
             }
-            .help("移除作业")
+            .help(String(localized: "移除作业"))
             .disabled(shouldDisableDeletion)
             .keyboardShortcut(.delete, modifiers: [.command])
         }
@@ -85,14 +85,14 @@ struct CopilotContent: View {
                 .disabled(true)
             case .busy:
                 Button(action: stop) {
-                    Label("停止", systemImage: "stop.fill")
+                    Label(String(localized: "停止"), systemImage: "stop.fill")
                 }
-                .help("停止")
+                .help(String(localized: "停止"))
             case .idle:
                 Button(action: start) {
-                    Label("开始", systemImage: "play.fill")
+                    Label(String(localized: "开始"), systemImage: "play.fill")
                 }
-                .help("开始")
+                .help(String(localized: "开始"))
             }
         }
     }

@@ -12,7 +12,7 @@ struct GameSettingsView: View {
 
     var body: some View {
         VStack {
-            Picker("客户端类型：", selection: $viewModel.clientChannel) {
+            Picker(String(localized: "客户端类型："), selection: $viewModel.clientChannel) {
                 ForEach(MAAClientChannel.allCases, id: \.rawValue) { channel in
                     Text("\(channel.description)").tag(channel)
                 }

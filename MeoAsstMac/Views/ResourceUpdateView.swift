@@ -39,25 +39,30 @@ struct ResourceUpdateView: View {
     var body: some View {
         VStack {
             if !shouldUpdate {
-                Text("无需更新资源")
+                Text(String(localized: "无需更新资源"))
                     .font(.headline)
                     .frame(maxWidth: .infinity)
-                Button("好") {
+                Button(String(localized: "好")) {
                     dismiss()
                 }
             } else if let progress {
                 if let error {
-                    Text("更新失败：\(error.localizedDescription)")
-                        .font(.headline)
-                        .frame(maxWidth: .infinity)
+                    Text(
+                        String(
+                            format: String(localized: "更新失败：%@"),
+                            error.localizedDescription
+                        )
+                    )
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
                 } else {
                     ProgressView(progress.0, value: progress.1)
                 }
-                Button("取消") {
+                Button(String(localized: "取消")) {
                     dismiss()
                 }
             } else {
-                Text("更新完成")
+                Text(String(localized: "更新完成"))
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                     .task {

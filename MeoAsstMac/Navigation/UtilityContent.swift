@@ -30,14 +30,14 @@ struct UtilityContent: View {
                 .disabled(true)
             case .busy:
                 Button(action: stop) {
-                    Label("停止", systemImage: "stop.fill")
+                    Label(String(localized: "停止"), systemImage: "stop.fill")
                 }
-                .help("停止")
+                .help(String(localized: "停止"))
             case .idle:
                 Button(action: start) {
-                    Label("开始", systemImage: "play.fill")
+                    Label(String(localized: "开始"), systemImage: "play.fill")
                 }
-                .help("开始")
+                .help(String(localized: "开始"))
             }
         }
     }
@@ -94,17 +94,17 @@ extension UtilityEntry: CustomStringConvertible {
     var description: String {
         switch self {
         case .recruit:
-            return NSLocalizedString("公招词条", comment: "")
+            return String(localized: "公招词条")
         case .depot:
-            return NSLocalizedString("仓库材料", comment: "")
+            return String(localized: "仓库材料")
         case .oper:
-            return NSLocalizedString("干员列表", comment: "")
+            return String(localized: "干员列表")
         case .video:
-            return NSLocalizedString("视频作业", comment: "")
+            return String(localized: "视频作业")
         case .gacha:
-            return NSLocalizedString("干员寻访", comment: "")
+            return String(localized: "干员寻访")
         case .minigame:
-            return NSLocalizedString("小游戏", comment: "")
+            return String(localized: "小游戏")
         }
     }
 

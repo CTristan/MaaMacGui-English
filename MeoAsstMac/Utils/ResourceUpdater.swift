@@ -100,7 +100,11 @@ extension MAAResourceChannel {
     }
 
     private func resourceVersion(of url: URL) throws -> MAAResourceVersion {
-        let versionURL = url.appendingPathComponent("resource").appendingPathComponent("version.json")
+        // Always use canonical version.json so local/remote comparisons are consistent.
+        let versionURL = url
+            .appendingPathComponent("resource")
+            .appendingPathComponent("version.json")
+
         let data = try Data(contentsOf: versionURL)
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970

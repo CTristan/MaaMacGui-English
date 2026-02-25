@@ -48,22 +48,22 @@ struct MeoAsstMacApp: App {
             TabView {
                 ConnectionSettingsView()
                     .tabItem {
-                        Label("连接设置", systemImage: "rectangle.connected.to.line.below")
+                        Label(String(localized: "连接设置"), systemImage: "rectangle.connected.to.line.below")
                     }
 
                 GameSettingsView()
                     .tabItem {
-                        Label("游戏设置", systemImage: "gamecontroller")
+                        Label(String(localized: "游戏设置"), systemImage: "gamecontroller")
                     }
 
                 UpdaterSettingsView(updater: updaterController.updater)
                     .tabItem {
-                        Label("更新设置", systemImage: "square.and.arrow.down")
+                        Label(String(localized: "更新设置"), systemImage: "square.and.arrow.down")
                     }
 
                 SystemSettingsView()
                     .tabItem {
-                        Label("系统设置", systemImage: "wrench.adjustable")
+                        Label(String(localized: "系统设置"), systemImage: "wrench.adjustable")
                     }
             }
             .environmentObject(appViewModel)

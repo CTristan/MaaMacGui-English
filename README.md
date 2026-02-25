@@ -1,30 +1,32 @@
 # MAA Mac GUI
 
-MAA 的意思是 MAA Assistant Arknights
+MAA stands for MAA Assistant Arknights
 
-一款明日方舟游戏小助手
+A game assistant for Arknights
 
-本 Repo 为 MAA 的 Mac GUI 仓库，是 MAA 主仓库的 submodule。 更多关于 MAA 的信息请参考 [MAA Assistant Arknights 主仓库](https://github.com/MaaAssistantArknights/MaaAssistantArknights)。
+**This repository contains the MAA Mac GUI and includes English translation support. It is used as a submodule in the main MAA repository.**
 
-## 开发
+This repo is the Mac GUI repository for MAA and is a submodule of the main MAA repository. For more information about MAA, please refer to the [MAA Assistant Arknights main repository](https://github.com/MaaAssistantArknights/MaaAssistantArknights).
 
-### clone 代码
-1. clone [主仓库](https://github.com/MaaAssistantArknights/MaaAssistantArknights)
-2. 初始化 submodule `git submodule update --init --recursive`
+## Development
+
+### Clone the code
+1. Clone the [main repository](https://github.com/MaaAssistantArknights/MaaAssistantArknights)
+2. Initialize the submodule `git submodule update --init --recursive`
 
 ### Build MAA Core
-> 为方便使用，现已将编译过程写成一键脚本。在版本迭代过程中，脚本可能无法及时更新。这时请以 workflow 定义中与 macOS 相关的内容为准
+> For convenience, the build process has been written as a one-click script. During version iteration, the script may not be updated in time. In this case, please refer to the macOS-related content in the workflow definition.
 
-1. 安装依赖 `brew install ninja`
-2. 运行位于主仓库的脚本 `MAA_DEBUG=1 ./tools/build_macos_universal.zsh`
+1. Install dependencies `brew install ninja`
+2. Run the script located in the main repository `MAA_DEBUG=1 ./tools/build_macos_universal.zsh`
 
-🎉 打开 Xcode 可以尝试 build 了
+🎉 Open Xcode and you can try to build
 
 ### Q&A
 
-1. 无法获取签名怎么办？
-    - 开发时可以在本地更换为个人开发者签名， 但是提交代码时请不要提交这部分修改
-2. 各种依赖下载失败/超时？
-    - 科学上网
-3. 本地测试环境的 Mirror 酱 CDK 和正式版不同？
-    - 此功能涉及到钥匙串访问。由于签名问题，测试环境和正式版无法通用。
+1. What to do if code signing cannot be obtained?
+    - During development, you can switch to personal developer signing locally, but please do not commit these changes when submitting code
+2. Various dependency download failures/timeouts?
+    - Use a proxy/VPN
+3. Is the Mirror-chan CDK different between the local test environment and the official version?
+    - This feature involves keychain access. Due to signing issues, the test environment and the official version cannot be shared.

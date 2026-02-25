@@ -18,19 +18,19 @@ struct FightSettingsView: View {
             Section {
                 HStack(spacing: 20) {
                     if useCustomStage || stageNotListed {
-                        TextField("关卡名", text: $config.stage)
+                        TextField(String(localized: "关卡名"), text: $config.stage)
                     } else {
-                        Picker("关卡选择", selection: $config.stage) {
+                        Picker(String(localized: "关卡选择"), selection: $config.stage) {
                             Text("当前/上次").tag("")
                             Text("1-7").tag("1-7")
                             Text("CE-6").tag("CE-6")
                             Text("AP-5").tag("AP-5")
                             Text("CA-5").tag("CA-5")
                             Text("LS-6").tag("LS-6")
-                            Text("剿灭模式").tag("Annihilation")
+                            Text(String(localized: "剿灭模式")).tag("Annihilation")
                         }
                     }
-                    Toggle("手动输入关卡名", isOn: isUsingCustomStage)
+                    Toggle(String(localized: "手动输入关卡名"), isOn: isUsingCustomStage)
                 }
                 .animation(.default, value: config.stage)
             }
@@ -43,15 +43,15 @@ struct FightSettingsView: View {
 
             Section {
                 TextField(value: $config.medicine, format: .number) {
-                    Toggle("吃理智药", isOn: useMedicine)
+                    Toggle(String(localized: "吃理智药"), isOn: useMedicine)
                 }
 
                 TextField(value: $config.stone, format: .number) {
-                    Toggle("吃源石", isOn: useStone)
+                    Toggle(String(localized: "吃源石"), isOn: useStone)
                 }
 
                 TextField(value: $config.times, format: .number) {
-                    Toggle("指定次数", isOn: limitBattles)
+                    Toggle(String(localized: "指定次数"), isOn: limitBattles)
                 }
 
                 Picker(selection: $config.series) {
@@ -59,9 +59,9 @@ struct FightSettingsView: View {
                     ForEach((1...6).reversed(), id: \.self) { i in
                         Text(verbatim: "\(i)").tag(i)
                     }
-                    Text("不使用").tag(Int?.none)
+                    Text(String(localized: "不使用")).tag(Int?.none)
                 } label: {
-                    Toggle("连战次数", isOn: seriesBattles)
+                    Toggle(String(localized: "连战次数"), isOn: seriesBattles)
                 }
             }
 
@@ -74,16 +74,16 @@ struct FightSettingsView: View {
                         Text($1.0).tag($0 as Int?)
                     }
                 } label: {
-                    Toggle("指定材料", isOn: dropItemToggle)
+                    Toggle(String(localized: "指定材料"), isOn: dropItemToggle)
                 }
                 if dropItemToggle.wrappedValue {
                     TextField(value: dropItemCount, format: .number) {
-                        Text("刷取数量")
+                        Text(String(localized: "刷取数量"))
                     }
                 }
             }.onAppear {
                 do {
-                    try FightConfiguration.initDropItems("zh-cn")
+                    try FightConfiguration.initDropItems("en-us")
                 } catch let err {
                     print(String(localized: "Read item_index.json failed: \(err.localizedDescription)"))
                 }
@@ -96,7 +96,7 @@ struct FightSettingsView: View {
             Divider()
 
             Section {
-                Toggle("博朗台碎石模式", isOn: $config.DrGrandet)
+                Toggle(String(localized: "博朗台碎石模式"), isOn: $config.DrGrandet)
                 Toggle("无限吃48小时内过期的理智药", isOn: useExpiringMedicine)
             }
 

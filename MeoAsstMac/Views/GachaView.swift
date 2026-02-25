@@ -15,11 +15,11 @@ struct GachaView: View {
 
     var body: some View {
         if showNotice {
-            Text("请注意，这是真的抽卡！不是模拟！！！")
+            Text(String(localized: "抽卡结果为真实记录，非模拟"))
                 .font(.title)
                 .bold()
 
-            Button("我已知晓，继续") {
+            Button(String(localized: "我已知晓，继续")) {
                 showNotice = false
             }
         } else {
@@ -33,7 +33,7 @@ struct GachaView: View {
                 if showTips {
                     Text(tips.randomElement()!)
                 } else {
-                    Text("GachaInitTip")
+                    Text(String(localized: "GachaInitTip"))
                 }
             }
             .font(.headline)
@@ -50,11 +50,11 @@ struct GachaView: View {
             }
 
             HStack {
-                Button("寻访一次") {
+                Button(String(localized: "寻访一次")) {
                     gachaPoll(once: true)
                 }
 
-                Button("寻访十次") {
+                Button(String(localized: "寻访十次")) {
                     gachaPoll(once: false)
                 }
             }
